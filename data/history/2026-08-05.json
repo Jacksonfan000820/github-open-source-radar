@@ -186,8 +186,8 @@
     "license": 39
   },
   "excluded_count": 39,
-  "generated_at": "2026-08-05T02:37:04Z",
-  "generated_at_beijing": "2026-08-05T10:37:04+08:00",
+  "generated_at": "2026-08-05T02:39:17Z",
+  "generated_at_beijing": "2026-08-05T10:39:17+08:00",
   "report_limit": 20,
   "repositories": [
     {
@@ -220,7 +220,7 @@
       "name_with_owner": "freeCodeCamp/freeCodeCamp",
       "open_issues": 215,
       "pushed_at": "2026-08-04T20:58:37Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 453500,
       "url": "https://github.com/freeCodeCamp/freeCodeCamp"
     },
@@ -254,7 +254,7 @@
       "name_with_owner": "practical-tutorials/project-based-learning",
       "open_issues": 294,
       "pushed_at": "2026-08-03T07:46:08Z",
-      "star_delta": 2,
+      "star_delta": 0,
       "stars": 276549,
       "url": "https://github.com/practical-tutorials/project-based-learning"
     },
@@ -264,15 +264,15 @@
       ],
       "created_at": "2025-10-09T19:45:18Z",
       "description": "An agentic skills framework & software development methodology that works.",
-      "forks": 23828,
+      "forks": 23829,
       "id": 1073224795,
       "language": "Shell",
       "license": "MIT",
       "name_with_owner": "obra/superpowers",
       "open_issues": 326,
       "pushed_at": "2026-08-05T01:24:45Z",
-      "star_delta": 6,
-      "stars": 266551,
+      "star_delta": 2,
+      "stars": 266553,
       "url": "https://github.com/obra/superpowers"
     },
     {
@@ -288,7 +288,7 @@
       "name_with_owner": "react/react",
       "open_issues": 1247,
       "pushed_at": "2026-08-04T16:30:52Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 246963,
       "url": "https://github.com/react/react"
     },
@@ -305,8 +305,8 @@
       "name_with_owner": "affaan-m/ECC",
       "open_issues": 110,
       "pushed_at": "2026-08-05T02:29:09Z",
-      "star_delta": 4,
-      "stars": 237726,
+      "star_delta": 1,
+      "stars": 237727,
       "url": "https://github.com/affaan-m/ECC"
     },
     {
@@ -320,10 +320,10 @@
       "language": "Python",
       "license": "MIT",
       "name_with_owner": "NousResearch/hermes-agent",
-      "open_issues": 27955,
+      "open_issues": 27956,
       "pushed_at": "2026-08-05T00:33:39Z",
-      "star_delta": 3,
-      "stars": 225551,
+      "star_delta": 1,
+      "stars": 225552,
       "url": "https://github.com/NousResearch/hermes-agent"
     },
     {
@@ -349,15 +349,15 @@
       ],
       "created_at": "2026-02-03T11:15:53Z",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "forks": 17564,
+      "forks": 17563,
       "id": 1148788086,
       "language": "Shell",
       "license": "MIT",
       "name_with_owner": "mattpocock/skills",
       "open_issues": 280,
       "pushed_at": "2026-08-04T19:25:42Z",
-      "star_delta": 21,
-      "stars": 203442,
+      "star_delta": 7,
+      "stars": 203449,
       "url": "https://github.com/mattpocock/skills"
     },
     {
@@ -372,7 +372,7 @@
       "license": "Apache-2.0",
       "name_with_owner": "tensorflow/tensorflow",
       "open_issues": 3012,
-      "pushed_at": "2026-08-05T02:29:50Z",
+      "pushed_at": "2026-08-05T02:38:37Z",
       "star_delta": 0,
       "stars": 196804,
       "url": "https://github.com/tensorflow/tensorflow"
@@ -388,10 +388,10 @@
       "language": "TypeScript",
       "license": "MIT",
       "name_with_owner": "anomalyco/opencode",
-      "open_issues": 4887,
+      "open_issues": 4888,
       "pushed_at": "2026-08-05T02:33:10Z",
-      "star_delta": 9,
-      "stars": 193385,
+      "star_delta": 1,
+      "stars": 193386,
       "url": "https://github.com/anomalyco/opencode"
     },
     {
@@ -422,7 +422,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "name_with_owner": "microsoft/vscode",
-      "open_issues": 19711,
+      "open_issues": 19710,
       "pushed_at": "2026-08-05T02:19:58Z",
       "star_delta": 0,
       "stars": 188314,
@@ -492,7 +492,7 @@
       "name_with_owner": "ollama/ollama",
       "open_issues": 3608,
       "pushed_at": "2026-08-05T00:31:43Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 177800,
       "url": "https://github.com/ollama/ollama"
     },
@@ -526,7 +526,7 @@
       "name_with_owner": "microsoft/markitdown",
       "open_issues": 838,
       "pushed_at": "2026-07-29T18:18:09Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 171496,
       "url": "https://github.com/microsoft/markitdown"
     },
@@ -543,7 +543,7 @@
       "name_with_owner": "huggingface/transformers",
       "open_issues": 2336,
       "pushed_at": "2026-08-05T02:27:45Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 163338,
       "url": "https://github.com/huggingface/transformers"
     },
@@ -560,7 +560,7 @@
       "name_with_owner": "firecrawl/firecrawl",
       "open_issues": 477,
       "pushed_at": "2026-08-05T01:44:19Z",
-      "star_delta": 4,
+      "star_delta": 0,
       "stars": 161099,
       "url": "https://github.com/firecrawl/firecrawl"
     },
@@ -577,7 +577,7 @@
       "name_with_owner": "Snailclimb/JavaGuide",
       "open_issues": 58,
       "pushed_at": "2026-08-04T10:57:59Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 157520,
       "url": "https://github.com/Snailclimb/JavaGuide"
     },
@@ -611,7 +611,7 @@
       "name_with_owner": "langchain-ai/langchain",
       "open_issues": 456,
       "pushed_at": "2026-08-05T01:39:29Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 143436,
       "url": "https://github.com/langchain-ai/langchain"
     },
@@ -679,8 +679,8 @@
       "name_with_owner": "msitarzewski/agency-agents",
       "open_issues": 103,
       "pushed_at": "2026-07-30T21:06:53Z",
-      "star_delta": 4,
-      "stars": 138589,
+      "star_delta": -1,
+      "stars": 138588,
       "url": "https://github.com/msitarzewski/agency-agents"
     },
     {
@@ -713,8 +713,8 @@
       "name_with_owner": "golang/go",
       "open_issues": 10205,
       "pushed_at": "2026-08-05T01:06:38Z",
-      "star_delta": 0,
-      "stars": 135600,
+      "star_delta": 1,
+      "stars": 135601,
       "url": "https://github.com/golang/go"
     },
     {
@@ -730,8 +730,8 @@
       "name_with_owner": "clash-verge-rev/clash-verge-rev",
       "open_issues": 432,
       "pushed_at": "2026-08-05T01:36:56Z",
-      "star_delta": 3,
-      "stars": 135534,
+      "star_delta": 2,
+      "stars": 135536,
       "url": "https://github.com/clash-verge-rev/clash-verge-rev"
     },
     {
@@ -747,7 +747,7 @@
       "name_with_owner": "iptv-org/iptv",
       "open_issues": 1,
       "pushed_at": "2026-08-05T00:28:01Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 135174,
       "url": "https://github.com/iptv-org/iptv"
     },
@@ -764,8 +764,8 @@
       "name_with_owner": "Shubhamsaboo/awesome-llm-apps",
       "open_issues": 12,
       "pushed_at": "2026-08-03T03:30:58Z",
-      "star_delta": 3,
-      "stars": 130545,
+      "star_delta": 1,
+      "stars": 130546,
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
     {
@@ -798,7 +798,7 @@
       "name_with_owner": "Chalarangelo/30-seconds-of-code",
       "open_issues": 0,
       "pushed_at": "2026-07-29T06:40:09Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 128610,
       "url": "https://github.com/Chalarangelo/30-seconds-of-code"
     },
@@ -849,8 +849,8 @@
       "name_with_owner": "farion1231/cc-switch",
       "open_issues": 2173,
       "pushed_at": "2026-08-05T01:04:15Z",
-      "star_delta": 6,
-      "stars": 124398,
+      "star_delta": 2,
+      "stars": 124400,
       "url": "https://github.com/farion1231/cc-switch"
     },
     {
@@ -883,7 +883,7 @@
       "name_with_owner": "Comfy-Org/ComfyUI",
       "open_issues": 4419,
       "pushed_at": "2026-08-05T02:29:54Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 123657,
       "url": "https://github.com/Comfy-Org/ComfyUI"
     },
@@ -900,7 +900,7 @@
       "name_with_owner": "ggml-org/llama.cpp",
       "open_issues": 1964,
       "pushed_at": "2026-08-05T00:21:08Z",
-      "star_delta": -1,
+      "star_delta": 0,
       "stars": 122736,
       "url": "https://github.com/ggml-org/llama.cpp"
     },
@@ -934,7 +934,7 @@
       "name_with_owner": "shadcn-ui/ui",
       "open_issues": 2230,
       "pushed_at": "2026-08-04T18:31:56Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 120491,
       "url": "https://github.com/shadcn-ui/ui"
     },
@@ -978,15 +978,15 @@
       ],
       "created_at": "2023-06-19T16:28:59Z",
       "description": "21 Lessons, Get Started Building with Generative AI ",
-      "forks": 61561,
+      "forks": 61562,
       "id": 655806940,
       "language": "Jupyter Notebook",
       "license": "MIT",
       "name_with_owner": "microsoft/generative-ai-for-beginners",
       "open_issues": 17,
       "pushed_at": "2026-08-04T18:21:38Z",
-      "star_delta": 5,
-      "stars": 116320,
+      "star_delta": 2,
+      "stars": 116322,
       "url": "https://github.com/microsoft/generative-ai-for-beginners"
     },
     {
@@ -1017,9 +1017,9 @@
       "language": "C++",
       "license": "MIT",
       "name_with_owner": "godotengine/godot",
-      "open_issues": 18625,
+      "open_issues": 18626,
       "pushed_at": "2026-08-04T16:52:27Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 115141,
       "url": "https://github.com/godotengine/godot"
     },
@@ -1053,8 +1053,8 @@
       "name_with_owner": "nextlevelbuilder/ui-ux-pro-max-skill",
       "open_issues": 119,
       "pushed_at": "2026-08-03T12:31:24Z",
-      "star_delta": 2,
-      "stars": 113488,
+      "star_delta": 3,
+      "stars": 113491,
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
     },
     {
@@ -1068,8 +1068,8 @@
       "language": "C#",
       "license": "GPL-3.0",
       "name_with_owner": "2dust/v2rayN",
-      "open_issues": 26,
-      "pushed_at": "2026-08-05T02:35:37Z",
+      "open_issues": 25,
+      "pushed_at": "2026-08-05T02:38:52Z",
       "star_delta": 0,
       "stars": 113070,
       "url": "https://github.com/2dust/v2rayN"
@@ -1105,7 +1105,7 @@
       "open_issues": 1425,
       "pushed_at": "2026-08-04T08:23:35Z",
       "star_delta": 1,
-      "stars": 109897,
+      "stars": 109898,
       "url": "https://github.com/tauri-apps/tauri"
     },
     {
@@ -1155,7 +1155,7 @@
       "name_with_owner": "axios/axios",
       "open_issues": 59,
       "pushed_at": "2026-08-04T19:31:46Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 109175,
       "url": "https://github.com/axios/axios"
     },
@@ -1182,14 +1182,14 @@
       ],
       "created_at": "2018-05-15T01:34:26Z",
       "description": "A modern runtime for JavaScript and TypeScript.",
-      "forks": 6306,
+      "forks": 6307,
       "id": 133442384,
       "language": "Rust",
       "license": "MIT",
       "name_with_owner": "denoland/deno",
       "open_issues": 1425,
       "pushed_at": "2026-08-05T01:09:50Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 108072,
       "url": "https://github.com/denoland/deno"
     },
@@ -1206,8 +1206,8 @@
       "name_with_owner": "browser-use/browser-use",
       "open_issues": 344,
       "pushed_at": "2026-08-05T00:49:19Z",
-      "star_delta": 0,
-      "stars": 107888,
+      "star_delta": 1,
+      "stars": 107889,
       "url": "https://github.com/browser-use/browser-use"
     },
     {
@@ -1240,7 +1240,7 @@
       "name_with_owner": "VoltAgent/awesome-design-md",
       "open_issues": 312,
       "pushed_at": "2026-07-31T12:32:42Z",
-      "star_delta": 2,
+      "star_delta": 0,
       "stars": 106578,
       "url": "https://github.com/VoltAgent/awesome-design-md"
     },
@@ -1274,7 +1274,7 @@
       "name_with_owner": "microsoft/terminal",
       "open_issues": 1748,
       "pushed_at": "2026-08-04T23:56:55Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 104475,
       "url": "https://github.com/microsoft/terminal"
     },
@@ -1291,8 +1291,8 @@
       "name_with_owner": "openai/codex",
       "open_issues": 11860,
       "pushed_at": "2026-08-05T01:25:52Z",
-      "star_delta": 3,
-      "stars": 103964,
+      "star_delta": 1,
+      "stars": 103965,
       "url": "https://github.com/openai/codex"
     },
     {
@@ -1308,8 +1308,8 @@
       "name_with_owner": "Graphify-Labs/graphify",
       "open_issues": 804,
       "pushed_at": "2026-08-05T00:42:01Z",
-      "star_delta": 3,
-      "stars": 102559,
+      "star_delta": -1,
+      "stars": 102558,
       "url": "https://github.com/Graphify-Labs/graphify"
     },
     {
@@ -1325,7 +1325,7 @@
       "name_with_owner": "harry0703/MoneyPrinterTurbo",
       "open_issues": 17,
       "pushed_at": "2026-08-05T02:26:53Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 101626,
       "url": "https://github.com/harry0703/MoneyPrinterTurbo"
     },
@@ -1359,8 +1359,8 @@
       "name_with_owner": "angular/angular",
       "open_issues": 1148,
       "pushed_at": "2026-08-04T18:51:28Z",
-      "star_delta": 3,
-      "stars": 100844,
+      "star_delta": 1,
+      "stars": 100845,
       "url": "https://github.com/angular/angular"
     },
     {
@@ -1376,7 +1376,7 @@
       "name_with_owner": "ant-design/ant-design",
       "open_issues": 1109,
       "pushed_at": "2026-08-04T21:22:00Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 98936,
       "url": "https://github.com/ant-design/ant-design"
     },
@@ -1444,8 +1444,8 @@
       "name_with_owner": "JuliusBrussee/caveman",
       "open_issues": 461,
       "pushed_at": "2026-08-04T13:44:52Z",
-      "star_delta": 2,
-      "stars": 95822,
+      "star_delta": 1,
+      "stars": 95823,
       "url": "https://github.com/JuliusBrussee/caveman"
     },
     {
@@ -1461,8 +1461,8 @@
       "name_with_owner": "hacksider/Deep-Live-Cam",
       "open_issues": 51,
       "pushed_at": "2026-08-01T17:44:51Z",
-      "star_delta": 6,
-      "stars": 95570,
+      "star_delta": 1,
+      "stars": 95571,
       "url": "https://github.com/hacksider/Deep-Live-Cam"
     },
     {
@@ -1563,8 +1563,8 @@
       "name_with_owner": "andrewyng/openworker",
       "open_issues": 377,
       "pushed_at": "2026-08-01T18:51:09Z",
-      "star_delta": 0,
-      "stars": 12825,
+      "star_delta": 2,
+      "stars": 12827,
       "url": "https://github.com/andrewyng/openworker"
     },
     {
@@ -1573,15 +1573,15 @@
       ],
       "created_at": "2026-07-29T20:03:08Z",
       "description": "Multiplayer agent harness for work",
-      "forks": 1224,
+      "forks": 1225,
       "id": 1316527318,
       "language": "TypeScript",
       "license": "MIT",
       "name_with_owner": "yc-software/qm",
       "open_issues": 92,
       "pushed_at": "2026-08-04T21:34:35Z",
-      "star_delta": 4,
-      "stars": 11207,
+      "star_delta": 2,
+      "stars": 11209,
       "url": "https://github.com/yc-software/qm"
     },
     {
@@ -1597,8 +1597,8 @@
       "name_with_owner": "img2threejs/img2threejs",
       "open_issues": 44,
       "pushed_at": "2026-08-03T05:24:58Z",
-      "star_delta": 0,
-      "stars": 9628,
+      "star_delta": 1,
+      "stars": 9629,
       "url": "https://github.com/img2threejs/img2threejs"
     },
     {
@@ -1631,7 +1631,7 @@
       "name_with_owner": "openai/codex-security",
       "open_issues": 126,
       "pushed_at": "2026-08-05T02:26:10Z",
-      "star_delta": 2,
+      "star_delta": 0,
       "stars": 8542,
       "url": "https://github.com/openai/codex-security"
     },
@@ -1648,7 +1648,7 @@
       "name_with_owner": "oso95/scroll-world",
       "open_issues": 9,
       "pushed_at": "2026-07-29T04:44:56Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 7414,
       "url": "https://github.com/oso95/scroll-world"
     },
@@ -1665,7 +1665,7 @@
       "name_with_owner": "drumih/turbo-fieldfare",
       "open_issues": 43,
       "pushed_at": "2026-08-04T22:56:31Z",
-      "star_delta": 2,
+      "star_delta": 0,
       "stars": 4927,
       "url": "https://github.com/drumih/turbo-fieldfare"
     },
@@ -1675,15 +1675,15 @@
       ],
       "created_at": "2026-07-31T21:38:51Z",
       "description": "An open-source, agentic-first CRM.",
-      "forks": 502,
+      "forks": 503,
       "id": 1318768894,
       "language": "TypeScript",
       "license": "MIT",
       "name_with_owner": "trycompai/crm",
       "open_issues": 3,
       "pushed_at": "2026-08-05T02:30:37Z",
-      "star_delta": 14,
-      "stars": 4801,
+      "star_delta": 3,
+      "stars": 4804,
       "url": "https://github.com/trycompai/crm"
     },
     {
@@ -1699,7 +1699,7 @@
       "name_with_owner": "MDX-Tom/gpt-5.6-instruct",
       "open_issues": 13,
       "pushed_at": "2026-08-03T06:26:26Z",
-      "star_delta": 2,
+      "star_delta": 0,
       "stars": 4579,
       "url": "https://github.com/MDX-Tom/gpt-5.6-instruct"
     },
@@ -1716,7 +1716,7 @@
       "name_with_owner": "bashalarmistalt/decimen-optical-transfer",
       "open_issues": 10,
       "pushed_at": "2026-08-04T03:17:55Z",
-      "star_delta": 2,
+      "star_delta": 0,
       "stars": 4559,
       "url": "https://github.com/bashalarmistalt/decimen-optical-transfer"
     },
@@ -1801,8 +1801,8 @@
       "name_with_owner": "Vincentwei1021/video-shotcraft",
       "open_issues": 3,
       "pushed_at": "2026-08-04T18:46:21Z",
-      "star_delta": 5,
-      "stars": 3540,
+      "star_delta": 2,
+      "stars": 3542,
       "url": "https://github.com/Vincentwei1021/video-shotcraft"
     },
     {
@@ -1852,8 +1852,8 @@
       "name_with_owner": "LiamGvchi/gc-minimal-zine-poster",
       "open_issues": 0,
       "pushed_at": "2026-07-25T07:47:00Z",
-      "star_delta": 10,
-      "stars": 2996,
+      "star_delta": 1,
+      "stars": 2997,
       "url": "https://github.com/LiamGvchi/gc-minimal-zine-poster"
     },
     {
@@ -1869,7 +1869,7 @@
       "name_with_owner": "kvcache-ai/AgentENV",
       "open_issues": 56,
       "pushed_at": "2026-08-04T11:04:28Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 2878,
       "url": "https://github.com/kvcache-ai/AgentENV"
     },
@@ -1886,8 +1886,8 @@
       "name_with_owner": "vercel-labs/scriptc",
       "open_issues": 39,
       "pushed_at": "2026-08-04T20:31:50Z",
-      "star_delta": 2,
-      "stars": 2875,
+      "star_delta": 1,
+      "stars": 2876,
       "url": "https://github.com/vercel-labs/scriptc"
     },
     {
@@ -1903,7 +1903,7 @@
       "name_with_owner": "mshumer/Claude-of-Duty",
       "open_issues": 22,
       "pushed_at": "2026-07-25T19:38:53Z",
-      "star_delta": 3,
+      "star_delta": 0,
       "stars": 2821,
       "url": "https://github.com/mshumer/Claude-of-Duty"
     },
@@ -1954,8 +1954,8 @@
       "name_with_owner": "FareedKhan-dev/kimi-k3-in-c",
       "open_issues": 7,
       "pushed_at": "2026-08-01T11:41:49Z",
-      "star_delta": 7,
-      "stars": 2068,
+      "star_delta": 1,
+      "stars": 2069,
       "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c"
     },
     {
@@ -1989,7 +1989,7 @@
       "open_issues": 125,
       "pushed_at": "2026-08-05T01:10:09Z",
       "star_delta": 1,
-      "stars": 1901,
+      "stars": 1902,
       "url": "https://github.com/bryanthaboi/gen1recomp"
     },
     {
@@ -2090,7 +2090,7 @@
       "name_with_owner": "makecindy/cindy",
       "open_issues": 478,
       "pushed_at": "2026-08-05T02:23:31Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 1715,
       "url": "https://github.com/makecindy/cindy"
     },
@@ -2100,15 +2100,15 @@
       ],
       "created_at": "2026-08-03T16:36:14Z",
       "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-      "forks": 72,
+      "forks": 73,
       "id": 1322012299,
       "language": "Rust",
       "license": "MIT",
       "name_with_owner": "firecrawl/anydoc",
       "open_issues": 8,
       "pushed_at": "2026-08-04T20:12:37Z",
-      "star_delta": 19,
-      "stars": 1692,
+      "star_delta": 5,
+      "stars": 1697,
       "url": "https://github.com/firecrawl/anydoc"
     },
     {
@@ -2158,7 +2158,7 @@
       "name_with_owner": "QoderAI/better-harness",
       "open_issues": 3,
       "pushed_at": "2026-08-04T14:51:23Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 1604,
       "url": "https://github.com/QoderAI/better-harness"
     },
@@ -2185,14 +2185,14 @@
       ],
       "created_at": "2026-07-21T07:01:53Z",
       "description": "Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light",
-      "forks": 115,
+      "forks": 116,
       "id": 1307383231,
       "language": "TypeScript",
       "license": "MIT",
       "name_with_owner": "Jakubantalik/thinking-orbs",
       "open_issues": 7,
       "pushed_at": "2026-08-03T13:12:05Z",
-      "star_delta": 2,
+      "star_delta": 0,
       "stars": 1548,
       "url": "https://github.com/Jakubantalik/thinking-orbs"
     },
@@ -2226,8 +2226,8 @@
       "name_with_owner": "oil-oil/beautify-github-readme",
       "open_issues": 3,
       "pushed_at": "2026-07-27T06:24:02Z",
-      "star_delta": 0,
-      "stars": 1500,
+      "star_delta": 1,
+      "stars": 1501,
       "url": "https://github.com/oil-oil/beautify-github-readme"
     },
     {
@@ -2260,7 +2260,7 @@
       "name_with_owner": "reflex-dev/xy",
       "open_issues": 75,
       "pushed_at": "2026-08-05T01:32:38Z",
-      "star_delta": 2,
+      "star_delta": 0,
       "stars": 1416,
       "url": "https://github.com/reflex-dev/xy"
     },
@@ -2294,7 +2294,7 @@
       "name_with_owner": "genspark-ai/genoffice",
       "open_issues": 15,
       "pushed_at": "2026-08-04T13:26:04Z",
-      "star_delta": 8,
+      "star_delta": 0,
       "stars": 1376,
       "url": "https://github.com/genspark-ai/genoffice"
     },
@@ -2311,7 +2311,7 @@
       "name_with_owner": "Kritt-ai/open-kritt",
       "open_issues": 35,
       "pushed_at": "2026-08-04T14:40:57Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 1367,
       "url": "https://github.com/Kritt-ai/open-kritt"
     },
@@ -2379,8 +2379,8 @@
       "name_with_owner": "DannyMac180/sol-advisor",
       "open_issues": 7,
       "pushed_at": "2026-08-04T10:20:51Z",
-      "star_delta": 0,
-      "stars": 1326,
+      "star_delta": 1,
+      "stars": 1327,
       "url": "https://github.com/DannyMac180/sol-advisor"
     },
     {
@@ -2668,7 +2668,7 @@
       "name_with_owner": "diwenne/openreply",
       "open_issues": 5,
       "pushed_at": "2026-07-31T20:23:21Z",
-      "star_delta": 1,
+      "star_delta": 0,
       "stars": 902,
       "url": "https://github.com/diwenne/openreply"
     },

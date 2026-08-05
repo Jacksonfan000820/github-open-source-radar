@@ -221,6 +221,31 @@ class RadarTests(unittest.TestCase):
                 self.run_scan([[repo(1, "acme/one", 105)], []])
         self.assertEqual(before, {path: path.read_bytes() for path in tracked})
 
+    def test_failed_rollback_preserves_recovery_backup(self):
+        self.run_scan([[repo(1, "acme/one", 100)], []])
+        history_dir = self.data / "history"
+        history = history_dir / "2026-08-05.json"
+        original_history = history.read_bytes()
+        files_before = set(history_dir.iterdir())
+        real_replace = os.replace
+        calls = 0
+
+        def fail_publish_and_rollback(source, destination):
+            nonlocal calls
+            calls += 1
+            if calls in {2, 3}:
+                raise OSError(f"injected replace failure {calls}")
+            return real_replace(source, destination)
+
+        with patch("src.radar.os.replace", side_effect=fail_publish_and_rollback):
+            with self.assertRaisesRegex(RadarError, "backup preserved at"):
+                self.run_scan([[repo(1, "acme/one", 105)], []])
+
+        recovery_files = set(history_dir.iterdir()) - files_before
+        self.assertEqual(1, len(recovery_files))
+        recovery = recovery_files.pop()
+        self.assertEqual(original_history, recovery.read_bytes())
+
     def test_timeout_and_malformed_api_payload_fail_closed(self):
         def timeout_opener(*_args, **_kwargs):
             raise TimeoutError("timed out")

@@ -476,6 +476,7 @@ def _atomic_write_many(outputs: list[tuple[Path, str]]) -> None:
     staged: dict[Path, Path] = {}
     backups: dict[Path, Path | None] = {}
     replaced: list[Path] = []
+    preserved_backups: set[Path] = set()
     try:
         for path, text in outputs:
             staged[path] = _stage_text(path, text)
@@ -496,13 +497,23 @@ def _atomic_write_many(outputs: list[tuple[Path, str]]) -> None:
                     os.replace(backup, path)
                     backups[path] = None
             except OSError as rollback_exc:
-                rollback_errors.append(f"{path}: {rollback_exc}")
+                if backup is not None:
+                    preserved_backups.add(backup)
+                    rollback_errors.append(
+                        f"{path}: {rollback_exc}; backup preserved at {backup}"
+                    )
+                else:
+                    rollback_errors.append(f"{path}: {rollback_exc}")
         detail = ""
         if rollback_errors:
             detail = "; rollback failed for " + ", ".join(rollback_errors)
         raise RadarError(f"Cannot publish radar outputs: {exc}{detail}") from exc
     finally:
-        for temp_path in (*staged.values(), *(path for path in backups.values() if path)):
+        cleanup_paths = [
+            *staged.values(),
+            *(path for path in backups.values() if path and path not in preserved_backups),
+        ]
+        for temp_path in cleanup_paths:
             try:
                 temp_path.unlink(missing_ok=True)
             except OSError:

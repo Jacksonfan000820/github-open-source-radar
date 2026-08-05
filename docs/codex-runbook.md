@@ -47,4 +47,4 @@ Replace this section after a material change.
 - Unit tests: 17 passed on 2026-08-05.
 - Live scan: 161 unique repositories across 2 categories; 39 unlicensed candidates excluded.
 - Generated snapshot schema: version 1; JSON parsed successfully; README markers remained unique.
-- Remote Actions run: pending initial publication.
+- Remote CI run `30969941477` and radar run `30969965389` succeeded on 2026-08-05; the radar produced bot commit `f81db03`.

@@ -2,7 +2,7 @@
 
 ## Architecture
 
-`config.json` defines one or more GitHub repository search queries. `src/radar.py` expands relative UTC date placeholders, requests the official GitHub Search API, validates and filters metadata, deduplicates by numeric repository ID, and compares against `data/latest.json`. Only after every query succeeds does it atomically replace the current/history JSON and the generated README section.
+`config.json` defines one or more GitHub repository search queries. `src/radar.py` expands relative UTC date placeholders, requests the official GitHub Search API, validates and filters metadata, deduplicates by numeric repository ID, and compares against `data/latest.json`. Only after every query succeeds does it transactionally replace the current/history JSON and generated README section, rolling back the set if a replacement fails.
 
 The first successful scan establishes a baseline. Later scans calculate Star deltas against the previous successful snapshot, including across repository renames. The report is a transparent proxy for popularity and is not GitHub's official Trending rank.
 
@@ -44,8 +44,7 @@ Public repositories can have scheduled workflows disabled after 60 days without 
 Replace this section after a material change.
 
 - Local Python: 3.13.2.
-- Unit tests: 11 passed on 2026-08-05.
+- Unit tests: 16 passed on 2026-08-05.
 - Live scan: 161 unique repositories across 2 categories; 39 unlicensed candidates excluded.
 - Generated snapshot schema: version 1; JSON parsed successfully; README markers remained unique.
 - Remote Actions run: pending initial publication.
-

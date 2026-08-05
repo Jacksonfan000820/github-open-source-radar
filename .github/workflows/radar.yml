@@ -15,6 +15,7 @@ concurrency:
 
 jobs:
   scan:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -46,4 +47,3 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(data): update open-source radar $(date -u +%F)"
           git push
-

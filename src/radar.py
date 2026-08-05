@@ -7,6 +7,8 @@ import argparse
 import html
 import json
 import os
+import re
+import shutil
 import sys
 import tempfile
 import time
@@ -228,8 +230,28 @@ def _validate_repository_item(item: dict[str, Any]) -> None:
         "pushed_at": str,
     }
     for key, expected_type in required.items():
-        if not isinstance(item.get(key), expected_type):
+        value = item.get(key)
+        if type(value) is not expected_type:
             raise RadarError(f"Repository item has invalid {key}")
+    for key in ("fork", "archived", "disabled", "private"):
+        if type(item.get(key)) is not bool:
+            raise RadarError(f"Repository item has invalid {key}")
+    if item["id"] <= 0:
+        raise RadarError("Repository item has invalid id")
+    for key in ("stargazers_count", "forks_count", "open_issues_count"):
+        if item[key] < 0:
+            raise RadarError(f"Repository item has invalid {key}")
+    if not re.fullmatch(r"[A-Za-z0-9-]{1,39}/[A-Za-z0-9._-]{1,100}", item["full_name"]):
+        raise RadarError("Repository item has invalid full_name")
+    parsed_url = urllib.parse.urlsplit(item["html_url"])
+    if (
+        parsed_url.scheme != "https"
+        or parsed_url.netloc.casefold() != "github.com"
+        or parsed_url.path != f"/{item['full_name']}"
+        or parsed_url.query
+        or parsed_url.fragment
+    ):
+        raise RadarError("Repository item has invalid html_url")
 
 
 def _excluded(item: dict[str, Any], require_license: bool) -> tuple[bool, str | None]:
@@ -251,7 +273,7 @@ def _normalize_repository(item: dict[str, Any]) -> dict[str, Any]:
     return {
         "id": item["id"],
         "name_with_owner": item["full_name"],
-        "url": item["html_url"],
+        "url": f"https://github.com/{item['full_name']}",
         "description": item.get("description") if isinstance(item.get("description"), str) else "",
         "language": item.get("language") if isinstance(item.get("language"), str) else "",
         "license": _license_id(item) or "",
@@ -287,26 +309,23 @@ def build_snapshot(
         category_ids: list[int] = []
         for item in items:
             is_excluded, reason = _excluded(item, config.exclude_without_license)
+            repo_id = item["id"]
             if is_excluded:
-                repo_id = item["id"]
                 if repo_id not in excluded_ids:
                     excluded_ids.add(repo_id)
                     excluded_by_reason[reason or "other"] = excluded_by_reason.get(reason or "other", 0) + 1
+                repositories.pop(repo_id, None)
                 continue
-            repo_id = item["id"]
-            if repo_id not in repositories:
-                repositories[repo_id] = _normalize_repository(item)
-            if rule.key not in repositories[repo_id]["categories"]:
-                repositories[repo_id]["categories"].append(rule.key)
+            if repo_id in excluded_ids:
+                continue
+            categories_for_repo = repositories.get(repo_id, {}).get("categories", [])
+            normalized = _normalize_repository(item)
+            normalized["categories"] = list(categories_for_repo)
+            repositories[repo_id] = normalized
+            if rule.key not in normalized["categories"]:
+                normalized["categories"].append(rule.key)
             if repo_id not in category_ids:
                 category_ids.append(repo_id)
-
-        category_ids.sort(
-            key=lambda repo_id: (
-                -repositories[repo_id]["stars"],
-                repositories[repo_id]["name_with_owner"].casefold(),
-            )
-        )
         categories.append(
             {
                 "key": rule.key,
@@ -316,6 +335,15 @@ def build_snapshot(
                 "order": rule.order,
                 "repository_ids": category_ids,
             }
+        )
+
+    for category in categories:
+        category["repository_ids"] = sorted(
+            (repo_id for repo_id in category["repository_ids"] if repo_id in repositories),
+            key=lambda repo_id: (
+                -repositories[repo_id]["stars"],
+                repositories[repo_id]["name_with_owner"].casefold(),
+            ),
         )
 
     previous_by_id = {
@@ -421,21 +449,64 @@ def replace_report(readme: str, report: str) -> str:
     return readme[:start] + "\n\n" + report.rstrip() + "\n\n" + readme[end:]
 
 
-def _atomic_write(path: Path, text: str) -> None:
+def _stage_text(path: Path, text: str) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
-    temp_name: str | None = None
+    with tempfile.NamedTemporaryFile(
+        "w", encoding="utf-8", newline="\n", dir=path.parent, delete=False
+    ) as handle:
+        handle.write(text)
+        handle.flush()
+        os.fsync(handle.fileno())
+        return Path(handle.name)
+
+
+def _backup_file(path: Path) -> Path | None:
+    if not path.exists():
+        return None
+    with tempfile.NamedTemporaryFile("wb", dir=path.parent, delete=False) as handle:
+        with path.open("rb") as source:
+            shutil.copyfileobj(source, handle)
+        handle.flush()
+        os.fsync(handle.fileno())
+        return Path(handle.name)
+
+
+def _atomic_write_many(outputs: list[tuple[Path, str]]) -> None:
+    """Replace a related output set and roll it back if any replace fails."""
+    staged: dict[Path, Path] = {}
+    backups: dict[Path, Path | None] = {}
+    replaced: list[Path] = []
     try:
-        with tempfile.NamedTemporaryFile(
-            "w", encoding="utf-8", newline="\n", dir=path.parent, delete=False
-        ) as handle:
-            temp_name = handle.name
-            handle.write(text)
-            handle.flush()
-            os.fsync(handle.fileno())
-        os.replace(temp_name, path)
+        for path, text in outputs:
+            staged[path] = _stage_text(path, text)
+        for path, _ in outputs:
+            backups[path] = _backup_file(path)
+        for path, _ in outputs:
+            os.replace(staged[path], path)
+            staged.pop(path)
+            replaced.append(path)
+    except OSError as exc:
+        rollback_errors: list[str] = []
+        for path in reversed(replaced):
+            backup = backups.get(path)
+            try:
+                if backup is None:
+                    path.unlink(missing_ok=True)
+                else:
+                    os.replace(backup, path)
+                    backups[path] = None
+            except OSError as rollback_exc:
+                rollback_errors.append(f"{path}: {rollback_exc}")
+        detail = ""
+        if rollback_errors:
+            detail = "; rollback failed for " + ", ".join(rollback_errors)
+        raise RadarError(f"Cannot publish radar outputs: {exc}{detail}") from exc
     finally:
-        if temp_name and os.path.exists(temp_name):
-            os.unlink(temp_name)
+        for temp_path in (*staged.values(), *(path for path in backups.values() if path)):
+            try:
+                temp_path.unlink(missing_ok=True)
+            except OSError:
+                pass
 
 
 def run_radar(
@@ -465,9 +536,13 @@ def run_radar(
     serialized = json.dumps(snapshot, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
     history_path = data_dir / "history" / f"{current_time.astimezone(timezone.utc).date().isoformat()}.json"
 
-    _atomic_write(history_path, serialized)
-    _atomic_write(data_dir / "latest.json", serialized)
-    _atomic_write(readme_path, new_readme)
+    _atomic_write_many(
+        [
+            (history_path, serialized),
+            (data_dir / "latest.json", serialized),
+            (readme_path, new_readme),
+        ]
+    )
     return snapshot
 
 

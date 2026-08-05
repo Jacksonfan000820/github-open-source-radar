@@ -1,12 +1,15 @@
 from __future__ import annotations
 
 import json
+import os
 import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
 
-from src.radar import RadarError, run_radar
+from unittest.mock import patch
+
+from src.radar import GitHubClient, RadarError, run_radar
 
 
 NOW = datetime(2026, 8, 5, 0, 17, tzinfo=timezone.utc)
@@ -21,11 +24,13 @@ def repo(
     fork: bool = False,
     archived: bool = False,
     disabled: bool = False,
+    private: bool = False,
+    html_url: str | None = None,
 ) -> dict:
     return {
         "id": repo_id,
         "full_name": name,
-        "html_url": f"https://github.com/{name}",
+        "html_url": html_url or f"https://github.com/{name}",
         "description": f"Description for {name}",
         "language": "Python",
         "license": {"spdx_id": license_id} if license_id else None,
@@ -37,7 +42,7 @@ def repo(
         "fork": fork,
         "archived": archived,
         "disabled": disabled,
-        "private": False,
+        "private": private,
     }
 
 
@@ -134,11 +139,44 @@ class RadarTests(unittest.TestCase):
             repo(2, "acme/fork", 100, fork=True),
             repo(3, "acme/archived", 100, archived=True),
             repo(4, "acme/disabled", 100, disabled=True),
-            repo(5, "acme/good", 100),
+            repo(5, "acme/private", 100, private=True),
+            repo(6, "acme/good", 100),
         ]
         snapshot = self.run_scan([items, []])
         self.assertEqual(["acme/good"], [r["name_with_owner"] for r in snapshot["repositories"]])
-        self.assertEqual(4, snapshot["excluded_count"])
+        self.assertEqual(5, snapshot["excluded_count"])
+
+    def test_malformed_boolean_and_numeric_fields_are_rejected(self):
+        malformed_private = repo(1, "acme/one", 100)
+        malformed_private["private"] = "true"
+        with self.assertRaises(RadarError):
+            self.run_scan([[malformed_private], []])
+        self.assertFalse((self.data / "latest.json").exists())
+
+        malformed_stars = repo(2, "acme/two", 100)
+        malformed_stars["stargazers_count"] = True
+        with self.assertRaises(RadarError):
+            self.run_scan([[malformed_stars], []])
+        self.assertFalse((self.data / "latest.json").exists())
+
+    def test_exclusion_wins_across_duplicate_observations(self):
+        accepted = repo(1, "acme/one", 100)
+        excluded = repo(1, "acme/renamed", 101, archived=True)
+        snapshot = self.run_scan([[accepted], [excluded]])
+        self.assertEqual([], snapshot["repositories"])
+        self.assertEqual([[], []], [category["repository_ids"] for category in snapshot["categories"]])
+        self.assertEqual({"archived": 1}, snapshot["excluded_by_reason"])
+
+    def test_repository_url_must_be_canonical_github_url(self):
+        malicious = repo(
+            1,
+            "acme/one",
+            100,
+            html_url="https://github.com/acme/one) [injected](https://evil.example",
+        )
+        with self.assertRaises(RadarError):
+            self.run_scan([[malicious], []])
+        self.assertFalse((self.data / "latest.json").exists())
 
     def test_empty_category_renders_empty_state(self):
         self.run_scan([[], []])
@@ -162,6 +200,48 @@ class RadarTests(unittest.TestCase):
             self.run_scan([[repo(1, "acme/one", 101)], RadarError("boom")])
         self.assertEqual(latest_before, (self.data / "latest.json").read_bytes())
         self.assertEqual(readme_before, self.readme.read_bytes())
+
+    def test_mid_publish_failure_rolls_back_all_outputs(self):
+        self.run_scan([[repo(1, "acme/one", 100)], []])
+        history = self.data / "history" / "2026-08-05.json"
+        tracked = [history, self.data / "latest.json", self.readme]
+        before = {path: path.read_bytes() for path in tracked}
+        real_replace = os.replace
+        calls = 0
+
+        def fail_second_replace(source, destination):
+            nonlocal calls
+            calls += 1
+            if calls == 2:
+                raise OSError("injected replace failure")
+            return real_replace(source, destination)
+
+        with patch("src.radar.os.replace", side_effect=fail_second_replace):
+            with self.assertRaises(RadarError):
+                self.run_scan([[repo(1, "acme/one", 105)], []])
+        self.assertEqual(before, {path: path.read_bytes() for path in tracked})
+
+    def test_timeout_and_malformed_api_payload_fail_closed(self):
+        def timeout_opener(*_args, **_kwargs):
+            raise TimeoutError("timed out")
+
+        client = GitHubClient(opener=timeout_opener, max_attempts=1)
+        with self.assertRaises(RadarError):
+            client.search_repositories("stars:>=1", sort="stars", order="desc", limit=1)
+
+        class Response:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *_args):
+                return False
+
+            def read(self):
+                return b'{"unexpected": []}'
+
+        malformed_client = GitHubClient(opener=lambda *_args, **_kwargs: Response())
+        with self.assertRaises(RadarError):
+            malformed_client.search_repositories("stars:>=1", sort="stars", order="desc", limit=1)
 
     def test_invalid_readme_markers_fail_before_writes(self):
         self.readme.write_text("# no markers\n", encoding="utf-8")

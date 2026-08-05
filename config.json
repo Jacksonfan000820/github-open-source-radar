@@ -1,0 +1,22 @@
+{
+  "candidate_limit": 100,
+  "report_limit": 20,
+  "exclude_without_license": true,
+  "queries": [
+    {
+      "key": "new_and_rising",
+      "title": "新晋热门项目",
+      "query": "created:>={date_30d} stars:>=100 fork:false archived:false",
+      "sort": "stars",
+      "order": "desc"
+    },
+    {
+      "key": "active_popular",
+      "title": "近期活跃项目",
+      "query": "pushed:>={date_7d} stars:>=1000 fork:false archived:false",
+      "sort": "stars",
+      "order": "desc"
+    }
+  ]
+}
+

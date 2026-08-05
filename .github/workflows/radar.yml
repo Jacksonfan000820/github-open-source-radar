@@ -1,0 +1,49 @@
+name: Update open-source radar
+
+on:
+  schedule:
+    # 00:17 UTC = 08:17 Asia/Shanghai; avoid the start-of-hour Actions peak.
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: open-source-radar
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Scan GitHub repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python src/radar.py --config config.json --data-dir data --readme README.md
+
+      - name: Commit changed radar data
+        shell: bash
+        run: |
+          git add README.md data/
+          if git diff --cached --quiet; then
+            echo "No radar changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): update open-source radar $(date -u +%F)"
+          git push
+

@@ -8,65 +8,65 @@
 
 ## 最新雷达
 
-- UTC：`2026-08-07T03:19:24Z`
-- 北京时间：`2026-08-07T11:19:24+08:00`
+- UTC：`2026-08-08T02:24:06Z`
+- 北京时间：`2026-08-08T10:24:06+08:00`
 - 数据源：GitHub REST Search repositories API
-- 排除候选：38 个
+- 排除候选：37 个
 - 说明：Star 增量按相邻两次成功快照计算。
 
 ### 新晋热门项目
 
-查询规则：`created:>=2026-07-08 stars:>=100 fork:false archived:false`
+查询规则：`created:>=2026-07-09 stars:>=100 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [xai-org/grok-build](https://github.com/xai-org/grok-build) | 24,312 | +75 | Rust | Apache-2.0 | 2026-08-06 | SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible. |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | 13,334 | +175 | Python | MIT | 2026-08-01 | - |
-| [yc-software/qm](https://github.com/yc-software/qm) | 12,079 | +320 | TypeScript | MIT | 2026-08-05 | Multiplayer agent harness for work |
-| [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 10,075 | +145 | Python | Apache-2.0 | 2026-08-06 | Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Toke… |
-| [openai/codex-security](https://github.com/openai/codex-security) | 9,123 | +312 | TypeScript | Apache-2.0 | 2026-08-07 | OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https… |
-| [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 8,768 | +3359 | Rust | MIT | 2026-08-06 | Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js a… |
-| [unicity-aos/aos-ce](https://github.com/unicity-aos/aos-ce) | 8,574 | +0 | Rust | Apache-2.0 | 2026-07-31 | AOS Community Edition: the open agent operating system. |
-| [trycompai/crm](https://github.com/trycompai/crm) | 7,234 | +800 | TypeScript | MIT | 2026-08-07 | Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. |
-| [drumih/turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) | 5,238 | +104 | Swift | Apache-2.0 | 2026-08-06 | Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook |
-| [bashalarmistalt/decimen-optical-transfer](https://github.com/bashalarmistalt/decimen-optical-transfer) | 4,975 | +267 | TypeScript | MIT | 2026-08-04 | - |
-| [MDX-Tom/gpt-5.6-instruct](https://github.com/MDX-Tom/gpt-5.6-instruct) | 4,832 | +107 | Python | MIT | 2026-08-06 | A Codex jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex 破甲提示词与测试包。 |
-| [LiamGvchi/gc-minimal-zine-poster](https://github.com/LiamGvchi/gc-minimal-zine-poster) | 4,048 | +466 | - | MIT | 2026-07-25 | Codex skill for generating quiet minimal zine-style editorial poster prompts and images. |
-| [withmarbleapp/os-taxonomy](https://github.com/withmarbleapp/os-taxonomy) | 3,900 | +24 | JavaScript | ODbL-1.0 | 2026-07-08 | - |
-| [nyblnet/bento](https://github.com/nyblnet/bento) | 3,770 | +38 | TypeScript | MIT | 2026-08-06 | Bento, the office suite that fits in a file |
-| [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 3,742 | +103 | TypeScript | Apache-2.0 | 2026-08-05 | AI video skill for Claude Code &amp; Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion prev… |
-| [digimata/quill](https://github.com/digimata/quill) | 3,717 | +21 | Swift | MIT | 2026-07-30 | Ultra-minimalist macOS recording + transcription. |
-| [slvDev/esp32-ai](https://github.com/slvDev/esp32-ai) | 3,685 | +101 | Python | MIT | 2026-08-03 | - |
-| [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | 3,202 | +58 | - | MIT | 2026-08-06 | A collection of agent skills that help with various parts of building a great interface. From animation and UI polish t… |
-| [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc) | 2,937 | +17 | TypeScript | Apache-2.0 | 2026-08-06 | TypeScript-to-Native Compiler |
-| [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV) | 2,929 | +23 | Rust | MIT | 2026-08-07 | AgentENV (AENV) is a distributed platform for running agent environments at scale. |
+| [xai-org/grok-build](https://github.com/xai-org/grok-build) | 24,404 | +92 | Rust | Apache-2.0 | 2026-08-07 | SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible. |
+| [andrewyng/openworker](https://github.com/andrewyng/openworker) | 13,603 | +269 | Python | MIT | 2026-08-08 | - |
+| [yc-software/qm](https://github.com/yc-software/qm) | 12,302 | +223 | TypeScript | MIT | 2026-08-08 | Multiplayer agent harness for work |
+| [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 11,106 | +2338 | Rust | MIT | 2026-08-07 | Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js a… |
+| [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 10,175 | +100 | Python | Apache-2.0 | 2026-08-07 | Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Toke… |
+| [openai/codex-security](https://github.com/openai/codex-security) | 9,274 | +151 | TypeScript | Apache-2.0 | 2026-08-07 | OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https… |
+| [unicity-aos/aos-ce](https://github.com/unicity-aos/aos-ce) | 8,575 | +1 | Rust | Apache-2.0 | 2026-07-31 | AOS Community Edition: the open agent operating system. |
+| [trycompai/crm](https://github.com/trycompai/crm) | 7,508 | +274 | TypeScript | MIT | 2026-08-07 | Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. |
+| [drumih/turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) | 5,336 | +98 | Swift | Apache-2.0 | 2026-08-07 | Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook |
+| [bashalarmistalt/decimen-optical-transfer](https://github.com/bashalarmistalt/decimen-optical-transfer) | 5,155 | +180 | TypeScript | MIT | 2026-08-07 | - |
+| [MDX-Tom/gpt-5.6-instruct](https://github.com/MDX-Tom/gpt-5.6-instruct) | 4,928 | +96 | Python | MIT | 2026-08-06 | A Codex jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex 破甲提示词与测试包。 |
+| [LiamGvchi/gc-minimal-zine-poster](https://github.com/LiamGvchi/gc-minimal-zine-poster) | 4,409 | +361 | - | MIT | 2026-07-25 | Codex skill for generating quiet minimal zine-style editorial poster prompts and images. |
+| [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 3,993 | +251 | TypeScript | Apache-2.0 | 2026-08-07 | AI video skill for Claude Code &amp; Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion prev… |
+| [nyblnet/bento](https://github.com/nyblnet/bento) | 3,813 | +43 | TypeScript | MIT | 2026-08-06 | Bento, the office suite that fits in a file |
+| [slvDev/esp32-ai](https://github.com/slvDev/esp32-ai) | 3,758 | +73 | Python | MIT | 2026-08-07 | - |
+| [digimata/quill](https://github.com/digimata/quill) | 3,731 | +14 | Swift | MIT | 2026-07-30 | Ultra-minimalist macOS recording + transcription. |
+| [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 3,320 | +443 | C | Apache-2.0 | 2026-08-07 | A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framew… |
+| [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | 3,227 | +25 | - | MIT | 2026-08-06 | A collection of agent skills that help with various parts of building a great interface. From animation and UI polish t… |
+| [mshumer/Claude-of-Duty](https://github.com/mshumer/Claude-of-Duty) | 2,970 | +44 | JavaScript | MIT | 2026-07-25 | A Call of Duty-quality FPS in Three.js, built from a single prompt. |
+| [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc) | 2,968 | +31 | TypeScript | Apache-2.0 | 2026-08-06 | TypeScript-to-Native Compiler |
 
 ### 近期活跃项目
 
-查询规则：`pushed:>=2026-07-31 stars:>=1000 fork:false archived:false`
+查询规则：`pushed:>=2026-08-01 stars:>=1000 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 454,778 | +220 | Python | MIT | 2026-08-05 | A collective list of free APIs |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 453,616 | +59 | TypeScript | BSD-3-Clause | 2026-08-06 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 393,893 | +70 | Python | CC-BY-4.0 | 2026-08-06 | :books: Freely available programming books |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 276,970 | +223 | Python | MIT | 2026-08-03 | Curated list of project-based tutorials |
-| [obra/superpowers](https://github.com/obra/superpowers) | 268,180 | +763 | Shell | MIT | 2026-08-07 | An agentic skills framework &amp; software development methodology that works. |
-| [react/react](https://github.com/react/react) | 247,074 | +27 | JavaScript | MIT | 2026-08-06 | The library for web and native user interfaces. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 238,340 | +284 | JavaScript | MIT | 2026-08-06 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 226,664 | +523 | Python | MIT | 2026-08-07 | The agent that grows with you |
-| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 223,540 | +15 | Python | MIT | 2026-08-03 | All Algorithms implemented in Python |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 207,297 | +2074 | Shell | MIT | 2026-08-06 | Skills for Real Engineers. Straight from my .agents directory. |
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 196,895 | +17 | C++ | Apache-2.0 | 2026-08-07 | An Open Source Machine Learning Framework for Everyone |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194,999 | 基线 | Rust | MIT | 2026-08-06 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 194,373 | +463 | TypeScript | MIT | 2026-08-07 | The open source coding agent. |
-| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 189,074 | +16 | Shell | MIT | 2026-08-06 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30… |
-| [microsoft/vscode](https://github.com/microsoft/vscode) | 188,455 | +42 | TypeScript | MIT | 2026-08-07 | Visual Studio Code |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 182,917 | +211 | Python | Unlicense | 2026-08-04 | A feature-rich command-line audio/video downloader |
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 180,332 | +94 | Go | MIT | 2026-08-06 | A curated list of awesome Go frameworks, libraries and software |
-| [flutter/flutter](https://github.com/flutter/flutter) | 178,255 | +21 | Dart | BSD-3-Clause | 2026-08-07 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond |
-| [ollama/ollama](https://github.com/ollama/ollama) | 177,950 | +70 | Go | MIT | 2026-08-07 | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
-| [twbs/bootstrap](https://github.com/twbs/bootstrap) | 174,565 | -3 | MDX | MIT | 2026-08-06 | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web. |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 454,974 | +196 | Python | MIT | 2026-08-05 | A collective list of free APIs |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 453,650 | +34 | TypeScript | BSD-3-Clause | 2026-08-07 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 393,952 | +59 | Python | CC-BY-4.0 | 2026-08-07 | :books: Freely available programming books |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 277,206 | +236 | Python | MIT | 2026-08-03 | Curated list of project-based tutorials |
+| [obra/superpowers](https://github.com/obra/superpowers) | 268,777 | +597 | Shell | MIT | 2026-08-08 | An agentic skills framework &amp; software development methodology that works. |
+| [react/react](https://github.com/react/react) | 247,110 | +36 | JavaScript | MIT | 2026-08-07 | The library for web and native user interfaces. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 238,591 | +251 | JavaScript | MIT | 2026-08-08 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 227,110 | +446 | Python | MIT | 2026-08-08 | The agent that grows with you |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 223,562 | +22 | Python | MIT | 2026-08-03 | All Algorithms implemented in Python |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 208,901 | +1604 | Shell | MIT | 2026-08-07 | Skills for Real Engineers. Straight from my .agents directory. |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 196,911 | +16 | C++ | Apache-2.0 | 2026-08-08 | An Open Source Machine Learning Framework for Everyone |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 195,006 | +7 | Rust | MIT | 2026-08-06 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 194,792 | +419 | TypeScript | MIT | 2026-08-08 | The open source coding agent. |
+| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 189,081 | +7 | Shell | MIT | 2026-08-07 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30… |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | 188,492 | +37 | TypeScript | MIT | 2026-08-08 | Visual Studio Code |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 183,122 | +205 | Python | Unlicense | 2026-08-04 | A feature-rich command-line audio/video downloader |
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 180,430 | +98 | Go | MIT | 2026-08-07 | A curated list of awesome Go frameworks, libraries and software |
+| [flutter/flutter](https://github.com/flutter/flutter) | 178,264 | +9 | Dart | BSD-3-Clause | 2026-08-08 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond |
+| [ollama/ollama](https://github.com/ollama/ollama) | 178,020 | +70 | Go | MIT | 2026-08-07 | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
+| [twbs/bootstrap](https://github.com/twbs/bootstrap) | 174,569 | +4 | MDX | MIT | 2026-08-06 | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web. |
 
 ---
 

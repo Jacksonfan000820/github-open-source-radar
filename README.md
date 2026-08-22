@@ -8,65 +8,65 @@
 
 ## 最新雷达
 
-- UTC：`2026-08-21T02:00:13Z`
-- 北京时间：`2026-08-21T10:00:13+08:00`
+- UTC：`2026-08-22T01:53:16Z`
+- 北京时间：`2026-08-22T09:53:16+08:00`
 - 数据源：GitHub REST Search repositories API
-- 排除候选：45 个
+- 排除候选：47 个
 - 说明：Star 增量按相邻两次成功快照计算。
 
 ### 新晋热门项目
 
-查询规则：`created:>=2026-07-22 stars:>=100 fork:false archived:false`
+查询规则：`created:>=2026-07-23 stars:>=100 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 174,992 | +7154 | TypeScript | MIT | 2026-08-19 | DeepSeek Harness: Everything is a Plugin. |
-| [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 17,543 | +278 | Rust | MIT | 2026-08-20 | Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js a… |
-| [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 16,559 | +1286 | TypeScript | MIT | 2026-08-20 | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。 |
-| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 16,092 | +745 | Python | MIT | 2026-08-19 | Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPE… |
-| [yc-software/qm](https://github.com/yc-software/qm) | 14,011 | +59 | TypeScript | MIT | 2026-08-21 | Multiplayer agent harness for work. |
-| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 10,678 | +598 | Python | CC0-1.0 | 2026-08-21 | A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 |
-| [trycompai/crm](https://github.com/trycompai/crm) | 8,732 | +52 | TypeScript | MIT | 2026-08-20 | Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. |
-| [bashalarmistalt/decimen-optical-transfer](https://github.com/bashalarmistalt/decimen-optical-transfer) | 6,200 | +28 | TypeScript | AGPL-3.0 | 2026-08-20 | - |
-| [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 6,176 | +69 | C | Apache-2.0 | 2026-08-07 | A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framew… |
-| [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 5,175 | +274 | TypeScript | Apache-2.0 | 2026-08-21 | Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile U… |
-| [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc) | 4,187 | +183 | TypeScript | Apache-2.0 | 2026-08-21 | TypeScript-to-Native Compiler |
-| [slvDev/esp32-ai](https://github.com/slvDev/esp32-ai) | 4,118 | +21 | Python | MIT | 2026-08-08 | - |
-| [digimata/quill](https://github.com/digimata/quill) | 3,846 | +9 | Swift | MIT | 2026-07-30 | Ultra-minimalist macOS recording + transcription. |
-| [pathwaycom/arc-task-gen](https://github.com/pathwaycom/arc-task-gen) | 3,793 | +96 | Python | MIT | 2026-08-11 | Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set. |
-| [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 3,423 | +56 | TypeScript | Apache-2.0 | 2026-08-20 | Free, open-source AI office suite for macOS, Windows &amp; Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and… |
-| [microsoft/skill-recorder](https://github.com/microsoft/skill-recorder) | 3,325 | +30 | TypeScript | MIT | 2026-08-12 | Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + o… |
-| [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV) | 3,254 | +14 | Rust | MIT | 2026-08-20 | AgentENV (AENV) is a distributed platform for running agent environments at scale. |
-| [mshumer/Claude-of-Duty](https://github.com/mshumer/Claude-of-Duty) | 3,230 | +12 | JavaScript | MIT | 2026-07-25 | A Call of Duty-quality FPS in Three.js, built from a single prompt. |
-| [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) | 3,149 | +345 | TypeScript | MIT | 2026-08-18 | Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns |
-| [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 3,138 | +1004 | - | MIT | 2026-08-20 | A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos. |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 181,452 | +6460 | TypeScript | MIT | 2026-08-21 | DeepSeek Harness: Everything is a Plugin. |
+| [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 17,767 | +224 | Rust | MIT | 2026-08-20 | Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js a… |
+| [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 17,600 | +1041 | TypeScript | MIT | 2026-08-22 | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。 |
+| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 16,634 | +542 | Python | MIT | 2026-08-21 | Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPE… |
+| [yc-software/qm](https://github.com/yc-software/qm) | 14,045 | +34 | TypeScript | MIT | 2026-08-22 | Multiplayer agent harness for work. |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 11,164 | +486 | Python | CC0-1.0 | 2026-08-21 | A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 |
+| [trycompai/crm](https://github.com/trycompai/crm) | 8,782 | +50 | TypeScript | MIT | 2026-08-21 | Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. |
+| [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 6,227 | +51 | C | Apache-2.0 | 2026-08-07 | A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framew… |
+| [bashalarmistalt/decimen-optical-transfer](https://github.com/bashalarmistalt/decimen-optical-transfer) | 6,225 | +25 | TypeScript | AGPL-3.0 | 2026-08-20 | - |
+| [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 5,429 | +254 | TypeScript | Apache-2.0 | 2026-08-22 | Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile U… |
+| [pathwaycom/arc-task-gen](https://github.com/pathwaycom/arc-task-gen) | 4,134 | +341 | Python | MIT | 2026-08-11 | Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set. |
+| [slvDev/esp32-ai](https://github.com/slvDev/esp32-ai) | 4,130 | +12 | Python | MIT | 2026-08-08 | - |
+| [digimata/quill](https://github.com/digimata/quill) | 3,856 | +10 | Swift | MIT | 2026-07-30 | Ultra-minimalist macOS recording + transcription. |
+| [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 3,496 | +358 | - | MIT | 2026-08-20 | A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos. |
+| [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 3,463 | +40 | TypeScript | Apache-2.0 | 2026-08-21 | Free, open-source AI office suite for macOS, Windows &amp; Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and… |
+| [microsoft/skill-recorder](https://github.com/microsoft/skill-recorder) | 3,341 | +16 | TypeScript | MIT | 2026-08-12 | Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + o… |
+| [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) | 3,317 | +168 | TypeScript | MIT | 2026-08-18 | Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns |
+| [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV) | 3,269 | +15 | Rust | MIT | 2026-08-21 | AgentENV (AENV) is a distributed platform for running agent environments at scale. |
+| [mshumer/Claude-of-Duty](https://github.com/mshumer/Claude-of-Duty) | 3,241 | +11 | JavaScript | MIT | 2026-07-25 | A Call of Duty-quality FPS in Three.js, built from a single prompt. |
+| [truefoundry/trueforge](https://github.com/truefoundry/trueforge) | 2,967 | +476 | TypeScript | MIT | 2026-08-21 | The open-source agent harness - the runtime layer that turns an LLM into a working agent. |
 
 ### 近期活跃项目
 
-查询规则：`pushed:>=2026-08-14 stars:>=1000 fork:false archived:false`
+查询规则：`pushed:>=2026-08-15 stars:>=1000 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 498,273 | +427 | - | CC0-1.0 | 2026-08-18 | 😎 Awesome lists about all kinds of interesting topics |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 467,271 | +1156 | Python | MIT | 2026-08-19 | A collective list of free APIs |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 454,372 | +34 | TypeScript | BSD-3-Clause | 2026-08-20 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 394,872 | +67 | Python | CC-BY-4.0 | 2026-08-18 | :books: Freely available programming books |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 280,148 | +161 | Python | MIT | 2026-08-17 | Curated list of project-based tutorials |
-| [obra/superpowers](https://github.com/obra/superpowers) | 274,977 | +671 | Shell | MIT | 2026-08-19 | An agentic skills framework &amp; software development methodology that works. |
-| [react/react](https://github.com/react/react) | 247,450 | +23 | JavaScript | MIT | 2026-08-19 | The library for web and native user interfaces. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 241,476 | +274 | JavaScript | MIT | 2026-08-19 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 233,571 | +495 | Python | MIT | 2026-08-21 | The agent that grows with you |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 226,662 | +2772 | Shell | MIT | 2026-08-20 | Skills for Real Engineers. Straight from my .agents directory. |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 199,568 | +317 | TypeScript | MIT | 2026-08-21 | The open source coding agent. |
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 197,108 | +40 | C++ | Apache-2.0 | 2026-08-21 | An Open Source Machine Learning Framework for Everyone |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 195,089 | +3 | Rust | MIT | 2026-08-16 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
-| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 189,274 | +5 | Shell | MIT | 2026-08-20 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30… |
-| [microsoft/vscode](https://github.com/microsoft/vscode) | 188,999 | +56 | TypeScript | MIT | 2026-08-21 | Visual Studio Code |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 185,893 | +229 | Python | Unlicense | 2026-08-20 | A feature-rich command-line audio/video downloader |
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 181,727 | +129 | Go | MIT | 2026-08-20 | A curated list of awesome Go frameworks, libraries and software |
-| [ollama/ollama](https://github.com/ollama/ollama) | 179,067 | +78 | Go | MIT | 2026-08-21 | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
-| [flutter/flutter](https://github.com/flutter/flutter) | 178,535 | +33 | Dart | BSD-3-Clause | 2026-08-21 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 174,992 | +7154 | TypeScript | MIT | 2026-08-19 | DeepSeek Harness: Everything is a Plugin. |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 498,663 | +390 | - | CC0-1.0 | 2026-08-21 | 😎 Awesome lists about all kinds of interesting topics |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 468,030 | +759 | Python | MIT | 2026-08-19 | A collective list of free APIs |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 454,425 | +53 | TypeScript | BSD-3-Clause | 2026-08-21 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 394,962 | +90 | Python | CC-BY-4.0 | 2026-08-18 | :books: Freely available programming books |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 280,272 | +124 | Python | MIT | 2026-08-17 | Curated list of project-based tutorials |
+| [obra/superpowers](https://github.com/obra/superpowers) | 275,670 | +693 | Shell | MIT | 2026-08-19 | An agentic skills framework &amp; software development methodology that works. |
+| [react/react](https://github.com/react/react) | 247,494 | +44 | JavaScript | MIT | 2026-08-21 | The library for web and native user interfaces. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 241,808 | +332 | JavaScript | MIT | 2026-08-21 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 234,008 | +437 | Python | MIT | 2026-08-22 | The agent that grows with you |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 229,584 | +2922 | Shell | MIT | 2026-08-21 | Skills for Real Engineers. Straight from my .agents directory. |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 223,933 | 基线 | Python | MIT | 2026-08-21 | All Algorithms implemented in Python |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 199,999 | +431 | TypeScript | MIT | 2026-08-22 | The open source coding agent. |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 197,213 | +105 | C++ | Apache-2.0 | 2026-08-22 | An Open Source Machine Learning Framework for Everyone |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 195,106 | +17 | Rust | MIT | 2026-08-16 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
+| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 189,303 | +29 | Shell | MIT | 2026-08-20 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30… |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | 189,115 | +116 | TypeScript | MIT | 2026-08-22 | Visual Studio Code |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 186,122 | +229 | Python | Unlicense | 2026-08-20 | A feature-rich command-line audio/video downloader |
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 181,877 | +150 | Go | MIT | 2026-08-21 | A curated list of awesome Go frameworks, libraries and software |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 181,452 | +6460 | TypeScript | MIT | 2026-08-21 | DeepSeek Harness: Everything is a Plugin. |
+| [ollama/ollama](https://github.com/ollama/ollama) | 179,128 | +61 | Go | MIT | 2026-08-22 | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
 
 ---
 

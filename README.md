@@ -8,65 +8,65 @@
 
 ## 最新雷达
 
-- UTC：`2026-09-04T04:40:52Z`
-- 北京时间：`2026-09-04T12:40:52+08:00`
+- UTC：`2026-09-05T04:36:47Z`
+- 北京时间：`2026-09-05T12:36:47+08:00`
 - 数据源：GitHub REST Search repositories API
-- 排除候选：40 个
+- 排除候选：36 个
 - 说明：Star 增量按相邻两次成功快照计算。
 
 ### 新晋热门项目
 
-查询规则：`created:>=2026-08-05 stars:>=100 fork:false archived:false`
+查询规则：`created:>=2026-08-06 stars:>=100 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 211,296 | +1374 | TypeScript | MIT | 2026-09-03 | DeepSeek Harness: Everything is a Plugin. |
-| [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 23,411 | +305 | TypeScript | MIT | 2026-09-03 | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。 |
-| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 20,358 | +235 | Python | MIT | 2026-09-04 | A privacy-first app that strips AI watermarks from content you own. |
-| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 14,388 | +129 | Python | CC0-1.0 | 2026-09-03 | A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 |
-| [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 7,059 | +28 | JavaScript | MIT | 2026-09-02 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-m… |
-| [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) | 6,802 | +58 | TypeScript | Apache-2.0 | 2026-09-04 | DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop |
-| [MengTo/threeui](https://github.com/MengTo/threeui) | 5,076 | +67 | HTML | MIT | 2026-09-03 | Open-source ThreeUI Community catalog with live interactive components and complete Community source. |
-| [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 4,895 | +89 | - | MIT | 2026-08-22 | A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos. |
-| [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 4,163 | +224 | TypeScript | MIT | 2026-09-03 | Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided b… |
-| [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) | 4,064 | +49 | TypeScript | MIT | 2026-08-31 | Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns |
-| [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | 4,063 | +143 | TypeScript | MIT | 2026-09-03 | DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版 |
-| [deeplethe/utopia](https://github.com/deeplethe/utopia) | 3,841 | +902 | Rust | Apache-2.0 | 2026-09-04 | World's first open-source enterprise world model. |
-| [yetone/cumora](https://github.com/yetone/cumora) | 3,462 | +31 | TypeScript | MIT | 2026-09-03 | Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your… |
-| [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) | 3,426 | +32 | Python | MIT | 2026-08-11 | 让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。 |
-| [Hisn00w/ASu-skills](https://github.com/Hisn00w/ASu-skills) | 3,360 | +144 | HTML | MIT | 2026-09-03 | 🚀面向求职与开发场景的实用 AI Skills 集合，支持简历优化、岗位投递、面试准备与开发提效。 |
-| [wang2122/sprix-sage-router](https://github.com/wang2122/sprix-sage-router) | 3,359 | +133 | Python | MIT | 2026-08-28 | Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks. |
-| [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 3,310 | +52 | TypeScript | MIT | 2026-09-03 | 开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面 ｜ Open sidebar foundation, supports third-party extensions to regist… |
-| [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 3,131 | +58 | TypeScript | MIT | 2026-09-03 | The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场 |
-| [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | 3,024 | +42 | JavaScript | MIT | 2026-09-03 | Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf… |
-| [crmne/fastpotify](https://github.com/crmne/fastpotify) | 2,854 | +493 | Rust | MIT | 2026-09-03 | Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux… |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 212,414 | +1118 | TypeScript | MIT | 2026-09-04 | DeepSeek Harness: Everything is a Plugin. |
+| [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 23,643 | +232 | TypeScript | MIT | 2026-09-05 | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。 |
+| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 20,625 | +267 | Python | MIT | 2026-09-04 | A privacy-first app that strips AI watermarks from content you own. |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 14,498 | +110 | Python | CC0-1.0 | 2026-09-05 | A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 |
+| [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 7,079 | +20 | JavaScript | MIT | 2026-09-04 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-m… |
+| [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) | 6,885 | +83 | TypeScript | Apache-2.0 | 2026-09-05 | DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop |
+| [MengTo/threeui](https://github.com/MengTo/threeui) | 5,131 | +55 | HTML | MIT | 2026-09-03 | Open-source ThreeUI Community catalog with live interactive components and complete Community source. |
+| [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 4,935 | +40 | - | MIT | 2026-08-22 | A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos. |
+| [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 4,266 | +103 | TypeScript | MIT | 2026-09-04 | Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided b… |
+| [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | 4,181 | +118 | TypeScript | MIT | 2026-09-04 | DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版 |
+| [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) | 4,082 | +18 | TypeScript | MIT | 2026-08-31 | Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns |
+| [deeplethe/utopia](https://github.com/deeplethe/utopia) | 4,042 | +201 | Rust | Apache-2.0 | 2026-09-05 | World's first open-source enterprise world model. |
+| [Hisn00w/ASu-skills](https://github.com/Hisn00w/ASu-skills) | 3,529 | +169 | HTML | MIT | 2026-09-04 | 🚀面向求职与开发场景的实用 AI Skills 集合，支持简历优化、岗位投递、面试准备与开发提效。 |
+| [wang2122/sprix-sage-router](https://github.com/wang2122/sprix-sage-router) | 3,505 | +146 | Python | MIT | 2026-08-28 | Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks. |
+| [yetone/cumora](https://github.com/yetone/cumora) | 3,475 | +13 | TypeScript | MIT | 2026-09-05 | Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your… |
+| [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 3,339 | +29 | TypeScript | MIT | 2026-09-04 | 开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面 ｜ Open sidebar foundation, supports third-party extensions to regist… |
+| [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 3,196 | +65 | TypeScript | MIT | 2026-09-05 | The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场 |
+| [crmne/fastpotify](https://github.com/crmne/fastpotify) | 3,087 | +233 | Rust | MIT | 2026-09-04 | Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux… |
+| [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | 3,058 | +34 | JavaScript | MIT | 2026-09-03 | Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf… |
+| [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 2,942 | +323 | JavaScript | Apache-2.0 | 2026-08-26 | AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 \| Agent skills for AI short-drama production — character bibles, adaptation… |
 
 ### 近期活跃项目
 
-查询规则：`pushed:>=2026-08-28 stars:>=1000 fork:false archived:false`
+查询规则：`pushed:>=2026-08-29 stars:>=1000 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 502,765 | +299 | - | CC0-1.0 | 2026-09-02 | 😎 Awesome lists about all kinds of interesting topics \[NOTE: Pull requests are temporarily disabled until I have a chan… |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 475,021 | +342 | Python | MIT | 2026-09-02 | A collective list of free APIs |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 454,980 | +66 | TypeScript | BSD-3-Clause | 2026-09-03 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 395,922 | +75 | Python | CC-BY-4.0 | 2026-09-01 | :books: Freely available programming books |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 282,014 | +132 | Python | MIT | 2026-08-31 | Curated list of project-based tutorials |
-| [obra/superpowers](https://github.com/obra/superpowers) | 281,426 | +525 | Shell | MIT | 2026-09-03 | An agentic skills framework &amp; software development methodology that works. |
-| [react/react](https://github.com/react/react) | 249,063 | +395 | JavaScript | MIT | 2026-09-03 | The library for web and native user interfaces. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 247,840 | 基线 | Shell | MIT | 2026-09-03 | Skills for Real Engineers. Straight from my .agents directory. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 247,356 | +898 | JavaScript | MIT | 2026-09-03 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 240,966 | +721 | Python | MIT | 2026-09-04 | The agent that grows with you |
-| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 224,240 | +29 | Python | MIT | 2026-09-03 | All Algorithms implemented in Python |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 211,296 | +1374 | TypeScript | MIT | 2026-09-03 | DeepSeek Harness: Everything is a Plugin. |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 203,612 | +293 | TypeScript | MIT | 2026-09-04 | The open source coding agent. |
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 198,793 | +430 | C++ | Apache-2.0 | 2026-09-04 | An Open Source Machine Learning Framework for Everyone |
-| [microsoft/vscode](https://github.com/microsoft/vscode) | 190,823 | +385 | TypeScript | MIT | 2026-09-04 | Visual Studio Code |
-| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 189,542 | +30 | Shell | MIT | 2026-09-01 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30… |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 188,795 | +200 | Python | Unlicense | 2026-08-30 | A feature-rich command-line audio/video downloader |
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 183,099 | +89 | Go | MIT | 2026-09-03 | A curated list of awesome Go frameworks, libraries and software |
-| [ollama/ollama](https://github.com/ollama/ollama) | 180,099 | +92 | Go | MIT | 2026-09-04 | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
-| [flutter/flutter](https://github.com/flutter/flutter) | 178,752 | +1 | Dart | BSD-3-Clause | 2026-09-04 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 503,072 | +307 | - | CC0-1.0 | 2026-09-02 | 😎 Awesome lists about all kinds of interesting topics \[NOTE: Pull requests are temporarily disabled until I have a chan… |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 475,378 | +357 | Python | MIT | 2026-09-02 | A collective list of free APIs |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 455,020 | +40 | TypeScript | BSD-3-Clause | 2026-09-04 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 395,994 | +72 | Python | CC-BY-4.0 | 2026-09-01 | :books: Freely available programming books |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 282,104 | +90 | Python | MIT | 2026-08-31 | Curated list of project-based tutorials |
+| [obra/superpowers](https://github.com/obra/superpowers) | 281,840 | +414 | Shell | MIT | 2026-09-04 | An agentic skills framework &amp; software development methodology that works. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 250,662 | +2822 | Shell | MIT | 2026-09-04 | Skills for Real Engineers. Straight from my .agents directory. |
+| [react/react](https://github.com/react/react) | 249,080 | +17 | JavaScript | MIT | 2026-09-04 | The library for web and native user interfaces. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 248,640 | +1284 | JavaScript | MIT | 2026-09-04 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 241,576 | +610 | Python | MIT | 2026-09-05 | The agent that grows with you |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 224,265 | +25 | Python | MIT | 2026-09-04 | All Algorithms implemented in Python |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 212,414 | +1118 | TypeScript | MIT | 2026-09-04 | DeepSeek Harness: Everything is a Plugin. |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 204,218 | +606 | TypeScript | MIT | 2026-09-05 | The open source coding agent. |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 198,833 | +40 | C++ | Apache-2.0 | 2026-09-05 | An Open Source Machine Learning Framework for Everyone |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | 190,870 | +47 | TypeScript | MIT | 2026-09-05 | Visual Studio Code |
+| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 189,552 | +10 | Shell | MIT | 2026-09-04 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30… |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 189,016 | +221 | Python | Unlicense | 2026-08-30 | A feature-rich command-line audio/video downloader |
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 183,178 | +79 | Go | MIT | 2026-09-04 | A curated list of awesome Go frameworks, libraries and software |
+| [ollama/ollama](https://github.com/ollama/ollama) | 180,178 | +79 | Go | MIT | 2026-09-05 | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
+| [flutter/flutter](https://github.com/flutter/flutter) | 178,777 | +25 | Dart | BSD-3-Clause | 2026-09-05 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond |
 
 ---
 

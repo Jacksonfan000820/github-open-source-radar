@@ -8,65 +8,65 @@
 
 ## 最新雷达
 
-- UTC：`2026-09-29T05:50:06Z`
-- 北京时间：`2026-09-29T13:50:06+08:00`
+- UTC：`2026-09-30T05:39:57Z`
+- 北京时间：`2026-09-30T13:39:57+08:00`
 - 数据源：GitHub REST Search repositories API
-- 排除候选：41 个
+- 排除候选：37 个
 - 说明：Star 增量按相邻两次成功快照计算。
 
 ### 新晋热门项目
 
-查询规则：`created:>=2026-08-30 stars:>=100 fork:false archived:false`
+查询规则：`created:>=2026-08-31 stars:>=100 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 27,891 | +969 | Python | Apache-2.0 | 2026-09-27 | Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward… |
-| [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 25,378 | +3652 | HTML | Unlicense | 2026-09-29 | 按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 |
-| [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | 21,214 | +320 | Python | MIT | 2026-09-25 | Fastest and cheapest web agent |
-| [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) | 8,420 | +46 | TypeScript | MIT | 2026-09-27 | Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. |
-| [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | 7,697 | +231 | Python | Apache-2.0 | 2026-09-29 | Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own |
-| [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | 7,156 | +117 | TypeScript | MIT | 2026-09-18 | Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one… |
-| [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7,080 | +149 | TypeScript | Apache-2.0 | 2026-09-24 | Z.ai's coding agent harness. Powerful, intelligent, extensible. |
-| [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) | 7,018 | +424 | Python | Apache-2.0 | 2026-09-29 | Infrastructure for continually self‑improving agents |
-| [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | 6,993 | +186 | Kotlin | MIT | 2026-09-28 | 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 |
-| [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx) | 6,590 | +90 | Python | Apache-2.0 | 2026-09-22 | Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or… |
-| [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 6,044 | +151 | Swift | MIT | 2026-09-29 | The Photoshop alternative for Mac |
-| [Albert-Weasker/niubigeo](https://github.com/Albert-Weasker/niubigeo) | 4,861 | +6 | TypeScript | Apache-2.0 | 2026-09-28 | Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ \| Paid services: AI test… |
-| [Mak5er/AirCard](https://github.com/Mak5er/AirCard) | 4,762 | +169 | Swift | MIT | 2026-09-22 | Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) |
-| [TheoLeeCJ/SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | 4,530 | +66 | Python | MIT | 2026-09-23 | Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. |
-| [ashemag/human-atlas](https://github.com/ashemag/human-atlas) | 3,960 | +20 | TypeScript | MIT | 2026-09-06 | Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. |
-| [yang0/handraw-style](https://github.com/yang0/handraw-style) | 3,648 | +198 | HTML | MIT | 2026-09-29 | 手绘风格编号画廊与双语提示词 Skill |
-| [yi1108/printfilm](https://github.com/yi1108/printfilm) | 3,636 | +560 | Python | MIT | 2026-09-24 | PRINTFILM：AI 视频获客与 AI短剧创作平台 |
-| [NVlabs/SoL-Pi](https://github.com/NVlabs/SoL-Pi) | 3,185 | +36 | TypeScript | MIT | 2026-09-29 | SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses |
-| [anthropics/commerce-agents](https://github.com/anthropics/commerce-agents) | 3,088 | +14 | Python | Apache-2.0 | 2026-09-11 | Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and e… |
-| [newliver666/apk-reverse](https://github.com/newliver666/apk-reverse) | 2,962 | +146 | Python | MIT | 2026-09-24 | Suitable for Android APK reverse engineering analysis |
+| [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 29,595 | +4217 | HTML | CC-BY-4.0 | 2026-09-30 | 按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 |
+| [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 28,759 | +868 | Python | Apache-2.0 | 2026-09-29 | Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward… |
+| [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | 21,440 | +226 | Python | MIT | 2026-09-30 | Fastest and cheapest web agent |
+| [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) | 8,471 | +51 | TypeScript | MIT | 2026-09-27 | Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts. |
+| [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | 7,948 | +251 | Python | Apache-2.0 | 2026-09-29 | Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own |
+| [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) | 7,329 | +311 | Python | Apache-2.0 | 2026-09-30 | Infrastructure for continually self‑improving agents |
+| [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | 7,214 | +58 | TypeScript | MIT | 2026-09-18 | Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one… |
+| [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7,196 | +116 | TypeScript | Apache-2.0 | 2026-09-29 | Z.ai's coding agent harness. Powerful, intelligent, extensible. |
+| [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | 7,132 | +139 | Kotlin | MIT | 2026-09-29 | 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。 |
+| [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx) | 6,639 | +49 | Python | Apache-2.0 | 2026-09-22 | Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or… |
+| [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 6,555 | +511 | Swift | MIT | 2026-09-29 | The Photoshop alternative for Mac |
+| [Mak5er/AirCard](https://github.com/Mak5er/AirCard) | 5,067 | +305 | Swift | MIT | 2026-09-22 | Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required) |
+| [Albert-Weasker/niubigeo](https://github.com/Albert-Weasker/niubigeo) | 4,862 | +1 | TypeScript | Apache-2.0 | 2026-09-28 | Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ \| Paid services: AI test… |
+| [TheoLeeCJ/SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | 4,583 | +53 | Python | MIT | 2026-09-23 | Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe. |
+| [ashemag/human-atlas](https://github.com/ashemag/human-atlas) | 3,976 | +16 | TypeScript | MIT | 2026-09-06 | Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views. |
+| [yi1108/printfilm](https://github.com/yi1108/printfilm) | 3,927 | +291 | Python | MIT | 2026-09-24 | PRINTFILM：AI 视频获客与 AI短剧创作平台 |
+| [yang0/handraw-style](https://github.com/yang0/handraw-style) | 3,794 | +146 | HTML | MIT | 2026-09-30 | 手绘风格编号画廊与双语提示词 Skill |
+| [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) | 3,519 | +2015 | TypeScript | MIT | 2026-09-29 | 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 |
+| [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 3,312 | +393 | TypeScript | MIT | 2026-09-29 | A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI. |
+| [NVlabs/SoL-Pi](https://github.com/NVlabs/SoL-Pi) | 3,212 | +27 | TypeScript | MIT | 2026-09-30 | SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses |
 
 ### 近期活跃项目
 
-查询规则：`pushed:>=2026-09-22 stars:>=1000 fork:false archived:false`
+查询规则：`pushed:>=2026-09-23 stars:>=1000 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 484,157 | +278 | Python | MIT | 2026-09-28 | A collective list of free APIs |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 456,481 | +92 | TypeScript | BSD-3-Clause | 2026-09-28 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 398,097 | +87 | Python | CC-BY-4.0 | 2026-09-24 | :books: Freely available programming books |
-| [obra/superpowers](https://github.com/obra/superpowers) | 292,585 | +357 | Shell | MIT | 2026-09-27 | An agentic skills framework &amp; software development methodology that works. |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 285,162 | +174 | Python | MIT | 2026-09-28 | Curated list of project-based tutorials |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 271,461 | +646 | Shell | MIT | 2026-09-24 | Skills for Real Engineers. Straight from my .agents directory. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 269,145 | +624 | JavaScript | MIT | 2026-09-28 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
-| [react/react](https://github.com/react/react) | 250,821 | +30 | JavaScript | MIT | 2026-09-27 | The library for web and native user interfaces. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 249,870 | +314 | Python | MIT | 2026-09-29 | The agent that grows with you |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 239,037 | +1047 | TypeScript | MIT | 2026-09-28 | DeepSeek Harness: Everything is a Plugin. |
-| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 225,103 | +21 | Python | MIT | 2026-09-28 | All Algorithms implemented in Python |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 210,685 | +216 | TypeScript | MIT | 2026-09-29 | The open source coding agent. |
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 200,601 | +29 | C++ | Apache-2.0 | 2026-09-29 | An Open Source Machine Learning Framework for Everyone |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 194,197 | +188 | Python | Unlicense | 2026-09-27 | A feature-rich command-line audio/video downloader |
-| [microsoft/vscode](https://github.com/microsoft/vscode) | 193,244 | +50 | TypeScript | MIT | 2026-09-29 | Visual Studio Code |
-| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 189,984 | +22 | Shell | MIT | 2026-09-28 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30… |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 186,147 | +510 | TypeScript | AGPL-3.0 | 2026-09-29 | The web data API to search, scrape, and interact at scale. 🔥 |
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 186,062 | +141 | Go | MIT | 2026-09-28 | A curated list of awesome Go frameworks, libraries and software |
-| [ollama/ollama](https://github.com/ollama/ollama) | 181,890 | +59 | Go | MIT | 2026-09-29 | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
-| [flutter/flutter](https://github.com/flutter/flutter) | 179,140 | +9 | Dart | BSD-3-Clause | 2026-09-29 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 484,461 | +304 | Python | MIT | 2026-09-28 | A collective list of free APIs |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 456,543 | +62 | TypeScript | BSD-3-Clause | 2026-09-29 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 398,176 | +79 | Python | CC-BY-4.0 | 2026-09-24 | :books: Freely available programming books |
+| [obra/superpowers](https://github.com/obra/superpowers) | 293,089 | +504 | Shell | MIT | 2026-09-27 | An agentic skills framework &amp; software development methodology that works. |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 285,305 | +143 | Python | MIT | 2026-09-28 | Curated list of project-based tutorials |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 272,268 | +807 | Shell | MIT | 2026-09-29 | Skills for Real Engineers. Straight from my .agents directory. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 269,744 | +599 | JavaScript | MIT | 2026-09-30 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
+| [react/react](https://github.com/react/react) | 250,838 | +17 | JavaScript | MIT | 2026-09-29 | The library for web and native user interfaces. |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 250,129 | +259 | Python | MIT | 2026-09-30 | The agent that grows with you |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 240,419 | +1382 | TypeScript | MIT | 2026-09-29 | DeepSeek Harness: Everything is a Plugin. |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 225,126 | +23 | Python | MIT | 2026-09-29 | All Algorithms implemented in Python |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 210,983 | +298 | TypeScript | MIT | 2026-09-30 | The open source coding agent. |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 200,627 | +26 | C++ | Apache-2.0 | 2026-09-30 | An Open Source Machine Learning Framework for Everyone |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 194,416 | +219 | Python | Unlicense | 2026-09-27 | A feature-rich command-line audio/video downloader |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | 193,295 | +51 | TypeScript | MIT | 2026-09-30 | Visual Studio Code |
+| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 189,998 | +14 | Shell | MIT | 2026-09-29 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30… |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 186,761 | +614 | TypeScript | AGPL-3.0 | 2026-09-30 | 🔥 Supercharge your AI agents with data from the web and beyond. A web data API to search, scrape, and access more sourc… |
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 186,196 | +134 | Go | MIT | 2026-09-28 | A curated list of awesome Go frameworks, libraries and software |
+| [ollama/ollama](https://github.com/ollama/ollama) | 181,938 | +48 | Go | MIT | 2026-09-30 | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
+| [flutter/flutter](https://github.com/flutter/flutter) | 179,152 | +12 | Dart | BSD-3-Clause | 2026-09-30 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond |
 
 ---
 

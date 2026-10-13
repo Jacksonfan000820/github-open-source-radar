@@ -1,0 +1,3059 @@
+{
+  "baseline": false,
+  "candidate_limit": 100,
+  "categories": [
+    {
+      "key": "new_and_rising",
+      "order": "desc",
+      "query": "created:>=2026-09-13 stars:>=100 fork:false archived:false",
+      "repository_ids": [
+        1398080271,
+        1375382253,
+        1385946301,
+        1373655162,
+        1373614120,
+        1407950271,
+        1385896447,
+        1398091865,
+        1398086162,
+        1398185212,
+        1383809012,
+        1385817306,
+        1408489772,
+        1375069862,
+        1398097510,
+        1378288598,
+        1379574728,
+        1374005005,
+        1393965829,
+        1397016507,
+        1377211520,
+        1410124849,
+        1385776214,
+        1373687654,
+        1400136506,
+        1396117711,
+        1391438314,
+        1372482979,
+        1371757322,
+        1390273274,
+        1395994653,
+        1394989252,
+        1408285582,
+        1377172300,
+        1409787646,
+        1406706284,
+        1372164083,
+        1408289866,
+        1400018213,
+        1394045721,
+        1407504032,
+        1371220575,
+        1401476500,
+        1407873347,
+        1384094559,
+        1373659194,
+        1388867993,
+        1386355153,
+        1396688303,
+        1386391454,
+        1408294296,
+        1399236672,
+        1388482474,
+        1391948723,
+        1374702542,
+        1396591019,
+        1378216647,
+        1393689296,
+        1408486424,
+        1375615157,
+        1403115747,
+        1394134758,
+        1380635125,
+        1389011744,
+        1402193143,
+        1378971656,
+        1374998940,
+        1410929004,
+        1410750399,
+        1397771878,
+        1378081384,
+        1412548284,
+        1400080206,
+        1382717255,
+        1376970259,
+        1413898431,
+        1389416650,
+        1368913638,
+        1376713674,
+        1404266247,
+        1373976608,
+        1377694077,
+        1393229560,
+        1382575878,
+        1397588814
+      ],
+      "sort": "stars",
+      "title": "新晋热门项目"
+    },
+    {
+      "key": "active_popular",
+      "order": "desc",
+      "query": "pushed:>=2026-10-06 stars:>=1000 fork:false archived:false",
+      "repository_ids": [
+        54346799,
+        28457823,
+        13491895,
+        1103012935,
+        1073224795,
+        1148788086,
+        88011908,
+        1136590548,
+        1024554267,
+        10270250,
+        1333065091,
+        63476337,
+        975734319,
+        45717250,
+        307260205,
+        1197021090,
+        41881900,
+        787076358,
+        291137,
+        21540759,
+        658928958,
+        31792824,
+        2126244,
+        1209966933,
+        155220641,
+        1266797999,
+        1075372545,
+        132464395,
+        599320067,
+        111583593,
+        721767116,
+        552661142,
+        943398999,
+        1031912724,
+        70107786,
+        1042367133,
+        157616880,
+        184456251,
+        23096959,
+        589831718,
+        1179264259,
+        1106996539,
+        231283452,
+        612354784,
+        770153867,
+        965415649,
+        20580498,
+        29028775,
+        1200597263,
+        299354207,
+        585146387,
+        9384267,
+        655806940,
+        1197515131,
+        724712,
+        15634981,
+        199570071,
+        881458615,
+        576201,
+        455229168,
+        63539055,
+        1035029907,
+        196701619,
+        214587193,
+        20929025,
+        1201173969,
+        48378947,
+        23088740,
+        133442384,
+        968197216,
+        1158722119,
+        100060912,
+        160919119,
+        243950408,
+        1170821064,
+        24195339,
+        1223170290,
+        1048065319,
+        34526884,
+        23083156,
+        106017343,
+        997737944,
+        221981891
+      ],
+      "sort": "stars",
+      "title": "近期活跃项目"
+    }
+  ],
+  "excluded_by_reason": {
+    "license": 32
+  },
+  "excluded_count": 32,
+  "generated_at": "2026-10-13T06:51:45Z",
+  "generated_at_beijing": "2026-10-13T14:51:45+08:00",
+  "report_limit": 20,
+  "repositories": [
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2016-03-20T23:49:42Z",
+      "description": "A collective list of free APIs",
+      "forks": 54109,
+      "id": 54346799,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "public-apis/public-apis",
+      "open_issues": 2126,
+      "pushed_at": "2026-10-13T04:59:16Z",
+      "star_delta": 424,
+      "stars": 488111,
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2014-12-24T17:49:19Z",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "forks": 49061,
+      "id": 28457823,
+      "language": "TypeScript",
+      "license": "BSD-3-Clause",
+      "name_with_owner": "freeCodeCamp/freeCodeCamp",
+      "open_issues": 187,
+      "pushed_at": "2026-10-13T03:55:31Z",
+      "star_delta": 60,
+      "stars": 456965,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2013-10-11T06:50:37Z",
+      "description": ":books: Freely available programming books",
+      "forks": 66930,
+      "id": 13491895,
+      "language": "Python",
+      "license": "CC-BY-4.0",
+      "name_with_owner": "EbookFoundation/free-programming-books",
+      "open_issues": 81,
+      "pushed_at": "2026-10-12T16:52:07Z",
+      "star_delta": 115,
+      "stars": 398903,
+      "url": "https://github.com/EbookFoundation/free-programming-books"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-11-24T10:16:47Z",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+      "forks": 82381,
+      "id": 1103012935,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "openclaw/openclaw",
+      "open_issues": 9578,
+      "pushed_at": "2026-10-13T06:51:26Z",
+      "star_delta": 101,
+      "stars": 391822,
+      "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-10-09T19:45:18Z",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "forks": 26662,
+      "id": 1073224795,
+      "language": "Shell",
+      "license": "MIT",
+      "name_with_owner": "obra/superpowers",
+      "open_issues": 334,
+      "pushed_at": "2026-10-10T03:03:30Z",
+      "star_delta": 489,
+      "stars": 298330,
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-02-03T11:15:53Z",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "forks": 24206,
+      "id": 1148788086,
+      "language": "Shell",
+      "license": "MIT",
+      "name_with_owner": "mattpocock/skills",
+      "open_issues": 167,
+      "pushed_at": "2026-10-12T08:46:48Z",
+      "star_delta": 1728,
+      "stars": 288384,
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2017-04-12T05:07:46Z",
+      "description": "Curated list of project-based tutorials",
+      "forks": 36622,
+      "id": 88011908,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "practical-tutorials/project-based-learning",
+      "open_issues": 241,
+      "pushed_at": "2026-10-12T07:22:00Z",
+      "star_delta": 120,
+      "stars": 286549,
+      "url": "https://github.com/practical-tutorials/project-based-learning"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-01-18T00:51:51Z",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "forks": 41446,
+      "id": 1136590548,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "affaan-m/ECC",
+      "open_issues": 168,
+      "pushed_at": "2026-10-12T14:45:46Z",
+      "star_delta": 717,
+      "stars": 278086,
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-07-22T22:22:28Z",
+      "description": "The agent that grows with you",
+      "forks": 54891,
+      "id": 1024554267,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "NousResearch/hermes-agent",
+      "open_issues": 48206,
+      "pushed_at": "2026-10-13T06:45:33Z",
+      "star_delta": 366,
+      "stars": 253238,
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2013-05-24T16:15:54Z",
+      "description": "The library for web and native user interfaces.",
+      "forks": 51478,
+      "id": 10270250,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "react/react",
+      "open_issues": 1425,
+      "pushed_at": "2026-10-13T06:51:18Z",
+      "star_delta": 76,
+      "stars": 250962,
+      "url": "https://github.com/react/react"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-08-13T11:56:32Z",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "forks": 29876,
+      "id": 1333065091,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "deepseek-ai/deepseek-harness",
+      "open_issues": 0,
+      "pushed_at": "2026-10-09T10:04:06Z",
+      "star_delta": 750,
+      "stars": 248477,
+      "url": "https://github.com/deepseek-ai/deepseek-harness"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2016-07-16T09:44:01Z",
+      "description": "All Algorithms implemented in Python",
+      "forks": 51184,
+      "id": 63476337,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "TheAlgorithms/Python",
+      "open_issues": 20,
+      "pushed_at": "2026-10-12T06:46:23Z",
+      "star_delta": 26,
+      "stars": 225211,
+      "url": "https://github.com/TheAlgorithms/Python"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-04-30T20:08:00Z",
+      "description": "The open source coding agent.",
+      "forks": 28549,
+      "id": 975734319,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "anomalyco/opencode",
+      "open_issues": 4145,
+      "pushed_at": "2026-10-13T06:50:33Z",
+      "star_delta": 239,
+      "stars": 213014,
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2015-11-07T01:19:20Z",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "forks": 79212,
+      "id": 45717250,
+      "language": "C++",
+      "license": "Apache-2.0",
+      "name_with_owner": "tensorflow/tensorflow",
+      "open_issues": 3424,
+      "pushed_at": "2026-10-13T06:50:39Z",
+      "star_delta": 31,
+      "stars": 200908,
+      "url": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2020-10-26T04:22:55Z",
+      "description": "A feature-rich command-line audio/video downloader",
+      "forks": 17191,
+      "id": 307260205,
+      "language": "Python",
+      "license": "Unlicense",
+      "name_with_owner": "yt-dlp/yt-dlp",
+      "open_issues": 2687,
+      "pushed_at": "2026-10-10T21:15:52Z",
+      "star_delta": 271,
+      "stars": 197278,
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-03-31T08:58:08Z",
+      "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+      "forks": 108050,
+      "id": 1197021090,
+      "language": "Rust",
+      "license": "MIT",
+      "name_with_owner": "ultraworkers/claw-code",
+      "open_issues": 1,
+      "pushed_at": "2026-10-13T06:02:26Z",
+      "star_delta": -30,
+      "stars": 194939,
+      "url": "https://github.com/ultraworkers/claw-code"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2015-09-03T20:23:38Z",
+      "description": "Visual Studio Code",
+      "forks": 45250,
+      "id": 41881900,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "microsoft/vscode",
+      "open_issues": 21760,
+      "pushed_at": "2026-10-13T06:45:32Z",
+      "star_delta": 51,
+      "stars": 193648,
+      "url": "https://github.com/microsoft/vscode"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2024-04-15T21:02:29Z",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "forks": 10136,
+      "id": 787076358,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "name_with_owner": "firecrawl/firecrawl",
+      "open_issues": 579,
+      "pushed_at": "2026-10-13T04:48:27Z",
+      "star_delta": 359,
+      "stars": 190947,
+      "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2009-08-28T18:15:37Z",
+      "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "forks": 29158,
+      "id": 291137,
+      "language": "Shell",
+      "license": "MIT",
+      "name_with_owner": "ohmyzsh/ohmyzsh",
+      "open_issues": 289,
+      "pushed_at": "2026-10-12T10:55:11Z",
+      "star_delta": 1,
+      "stars": 190104,
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2014-07-06T13:42:15Z",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "forks": 13635,
+      "id": 21540759,
+      "language": "Go",
+      "license": "MIT",
+      "name_with_owner": "avelino/awesome-go",
+      "open_issues": 66,
+      "pushed_at": "2026-10-12T16:09:12Z",
+      "star_delta": 166,
+      "stars": 188107,
+      "url": "https://github.com/avelino/awesome-go"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2023-06-26T19:39:32Z",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "forks": 18244,
+      "id": 658928958,
+      "language": "Go",
+      "license": "MIT",
+      "name_with_owner": "ollama/ollama",
+      "open_issues": 4259,
+      "pushed_at": "2026-10-13T04:51:43Z",
+      "star_delta": 142,
+      "stars": 182954,
+      "url": "https://github.com/ollama/ollama"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2015-03-06T22:54:58Z",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "forks": 33852,
+      "id": 31792824,
+      "language": "Dart",
+      "license": "BSD-3-Clause",
+      "name_with_owner": "flutter/flutter",
+      "open_issues": 13335,
+      "pushed_at": "2026-10-13T06:41:01Z",
+      "star_delta": 169,
+      "stars": 180011,
+      "url": "https://github.com/flutter/flutter"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2011-07-29T21:19:00Z",
+      "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+      "forks": 78564,
+      "id": 2126244,
+      "language": "MDX",
+      "license": "MIT",
+      "name_with_owner": "twbs/bootstrap",
+      "open_issues": 242,
+      "pushed_at": "2026-10-12T19:32:37Z",
+      "star_delta": 7,
+      "stars": 174823,
+      "url": "https://github.com/twbs/bootstrap"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-04-14T00:51:32Z",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "forks": 41582,
+      "id": 1209966933,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "morluto/rea",
+      "open_issues": 510,
+      "pushed_at": "2026-10-13T06:51:30Z",
+      "star_delta": 56484,
+      "stars": 173597,
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2018-10-29T13:56:00Z",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "forks": 34854,
+      "id": 155220641,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "huggingface/transformers",
+      "open_issues": 2349,
+      "pushed_at": "2026-10-13T06:36:56Z",
+      "star_delta": 82,
+      "stars": 167618,
+      "url": "https://github.com/huggingface/transformers"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-06-12T00:52:37Z",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "forks": 8748,
+      "id": 1266797999,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "DietrichGebert/ponytail",
+      "open_issues": 12,
+      "pushed_at": "2026-10-13T01:46:28Z",
+      "star_delta": 781,
+      "stars": 162048,
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-10-13T12:12:29Z",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "forks": 25798,
+      "id": 1075372545,
+      "language": "Shell",
+      "license": "MIT",
+      "name_with_owner": "msitarzewski/agency-agents",
+      "open_issues": 226,
+      "pushed_at": "2026-10-07T16:45:46Z",
+      "star_delta": 411,
+      "stars": 159618,
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2018-05-07T13:27:00Z",
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "forks": 46154,
+      "id": 132464395,
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "name_with_owner": "Snailclimb/JavaGuide",
+      "open_issues": 20,
+      "pushed_at": "2026-10-12T04:50:18Z",
+      "star_delta": 28,
+      "stars": 158979,
+      "url": "https://github.com/Snailclimb/JavaGuide"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2023-02-08T22:28:03Z",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "forks": 10246,
+      "id": 599320067,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "langflow-ai/langflow",
+      "open_issues": 1155,
+      "pushed_at": "2026-10-13T02:43:44Z",
+      "star_delta": 55,
+      "stars": 155579,
+      "url": "https://github.com/langflow-ai/langflow"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2017-11-21T18:00:27Z",
+      "description": "Display and control your Android device",
+      "forks": 13961,
+      "id": 111583593,
+      "language": "C",
+      "license": "Apache-2.0",
+      "name_with_owner": "Genymobile/scrcpy",
+      "open_issues": 2929,
+      "pushed_at": "2026-10-08T06:44:51Z",
+      "star_delta": 103,
+      "stars": 152000,
+      "url": "https://github.com/Genymobile/scrcpy"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2023-11-21T18:24:03Z",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "forks": 10864,
+      "id": 721767116,
+      "language": "Rust",
+      "license": "GPL-3.0",
+      "name_with_owner": "clash-verge-rev/clash-verge-rev",
+      "open_issues": 506,
+      "pushed_at": "2026-10-12T20:30:01Z",
+      "star_delta": 271,
+      "stars": 150961,
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2022-10-17T02:58:36Z",
+      "description": "The agent engineering platform.",
+      "forks": 24776,
+      "id": 552661142,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "langchain-ai/langchain",
+      "open_issues": 640,
+      "pushed_at": "2026-10-12T19:28:40Z",
+      "star_delta": 79,
+      "stars": 147731,
+      "url": "https://github.com/langchain-ai/langchain"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-03-05T16:38:29Z",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "forks": 34755,
+      "id": 943398999,
+      "language": "",
+      "license": "GPL-3.0",
+      "name_with_owner": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "open_issues": 162,
+      "pushed_at": "2026-10-12T15:19:01Z",
+      "star_delta": null,
+      "stars": 143981,
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-08-04T14:16:16Z",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "forks": 9546,
+      "id": 1031912724,
+      "language": "Rust",
+      "license": "MIT",
+      "name_with_owner": "farion1231/cc-switch",
+      "open_issues": 1968,
+      "pushed_at": "2026-10-13T02:36:32Z",
+      "star_delta": 516,
+      "stars": 143494,
+      "url": "https://github.com/farion1231/cc-switch"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2016-10-05T23:32:51Z",
+      "description": "The React Framework",
+      "forks": 34685,
+      "id": 70107786,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "vercel/next.js",
+      "open_issues": 3641,
+      "pushed_at": "2026-10-13T06:37:23Z",
+      "star_delta": 10,
+      "stars": 143155,
+      "url": "https://github.com/vercel/next.js"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-08-21T22:54:31Z",
+      "description": "💫 Toolkit to help you get started with SDD or any other process!",
+      "forks": 12622,
+      "id": 1042367133,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "github/spec-kit",
+      "open_issues": 161,
+      "pushed_at": "2026-10-12T21:39:32Z",
+      "star_delta": 163,
+      "stars": 141031,
+      "url": "https://github.com/github/spec-kit"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2018-11-14T22:00:57Z",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "forks": 8256,
+      "id": 157616880,
+      "language": "TypeScript",
+      "license": "Unlicense",
+      "name_with_owner": "iptv-org/iptv",
+      "open_issues": 41,
+      "pushed_at": "2026-10-13T00:20:54Z",
+      "star_delta": 121,
+      "stars": 140714,
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2019-05-01T17:44:02Z",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "forks": 8638,
+      "id": 184456251,
+      "language": "C",
+      "license": "MIT",
+      "name_with_owner": "microsoft/PowerToys",
+      "open_issues": 7738,
+      "pushed_at": "2026-10-13T06:36:56Z",
+      "star_delta": 40,
+      "stars": 139249,
+      "url": "https://github.com/microsoft/PowerToys"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2014-08-19T04:33:40Z",
+      "description": "The Go programming language",
+      "forks": 22072,
+      "id": 23096959,
+      "language": "Go",
+      "license": "BSD-3-Clause",
+      "name_with_owner": "golang/go",
+      "open_issues": 10316,
+      "pushed_at": "2026-10-13T01:31:27Z",
+      "star_delta": 27,
+      "stars": 139239,
+      "url": "https://github.com/golang/go"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2023-01-17T03:15:56Z",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "forks": 16331,
+      "id": 589831718,
+      "language": "Python",
+      "license": "GPL-3.0",
+      "name_with_owner": "Comfy-Org/ComfyUI",
+      "open_issues": 5146,
+      "pushed_at": "2026-10-13T06:29:06Z",
+      "star_delta": 215,
+      "stars": 137213,
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-03-11T21:22:45Z",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "forks": 20214,
+      "id": 1179264259,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "garrytan/gstack",
+      "open_issues": 70,
+      "pushed_at": "2026-10-13T04:15:30Z",
+      "star_delta": 134,
+      "stars": 136190,
+      "url": "https://github.com/garrytan/gstack"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-11-30T11:36:31Z",
+      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "forks": 14367,
+      "id": 1106996539,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "open_issues": 91,
+      "pushed_at": "2026-10-12T11:08:03Z",
+      "star_delta": 359,
+      "stars": 135267,
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2020-01-02T01:04:43Z",
+      "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+      "forks": 15654,
+      "id": 231283452,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "excalidraw/excalidraw",
+      "open_issues": 3270,
+      "pushed_at": "2026-10-13T06:32:21Z",
+      "star_delta": 71,
+      "stars": 133751,
+      "url": "https://github.com/excalidraw/excalidraw"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2023-03-10T18:58:00Z",
+      "description": "LLM inference in C/C++",
+      "forks": 24351,
+      "id": 612354784,
+      "language": "C++",
+      "license": "MIT",
+      "name_with_owner": "ggml-org/llama.cpp",
+      "open_issues": 2545,
+      "pushed_at": "2026-10-13T03:37:20Z",
+      "star_delta": 95,
+      "stars": 130982,
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2024-03-11T02:57:34Z",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "forks": 20446,
+      "id": 770153867,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "harry0703/MoneyPrinterTurbo",
+      "open_issues": 93,
+      "pushed_at": "2026-10-12T03:10:07Z",
+      "star_delta": 455,
+      "stars": 130365,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-04-13T05:37:54Z",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "forks": 20260,
+      "id": 965415649,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "openai/codex",
+      "open_issues": 22182,
+      "pushed_at": "2026-10-13T04:42:22Z",
+      "star_delta": 193,
+      "stars": 128911,
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2014-06-06T22:56:04Z",
+      "description": "Production-Grade Container Scheduling and Management",
+      "forks": 46809,
+      "id": 20580498,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "name_with_owner": "kubernetes/kubernetes",
+      "open_issues": 3268,
+      "pushed_at": "2026-10-12T22:36:06Z",
+      "star_delta": 28,
+      "stars": 128315,
+      "url": "https://github.com/kubernetes/kubernetes"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2015-01-09T18:10:16Z",
+      "description": "A framework for building native applications using React",
+      "forks": 25310,
+      "id": 29028775,
+      "language": "C++",
+      "license": "MIT",
+      "name_with_owner": "react/react-native",
+      "open_issues": 1162,
+      "pushed_at": "2026-10-13T04:48:54Z",
+      "star_delta": 19,
+      "stars": 126650,
+      "url": "https://github.com/react/react-native"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-04-03T15:49:07Z",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "forks": 12154,
+      "id": 1200597263,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "Graphify-Labs/graphify",
+      "open_issues": 1492,
+      "pushed_at": "2026-10-12T22:19:19Z",
+      "star_delta": 327,
+      "stars": 125951,
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2020-09-28T15:36:08Z",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "forks": 19643,
+      "id": 299354207,
+      "language": "Rust",
+      "license": "AGPL-3.0",
+      "name_with_owner": "rustdesk/rustdesk",
+      "open_issues": 172,
+      "pushed_at": "2026-10-13T04:06:16Z",
+      "star_delta": 106,
+      "stars": 125660,
+      "url": "https://github.com/rustdesk/rustdesk"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2023-01-04T12:43:27Z",
+      "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+      "forks": 12993,
+      "id": 585146387,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "shadcn-ui/ui",
+      "open_issues": 1788,
+      "pushed_at": "2026-10-12T17:45:44Z",
+      "star_delta": 91,
+      "stars": 125464,
+      "url": "https://github.com/shadcn-ui/ui"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2013-04-12T01:47:36Z",
+      "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+      "forks": 17601,
+      "id": 9384267,
+      "language": "C++",
+      "license": "MIT",
+      "name_with_owner": "electron/electron",
+      "open_issues": 736,
+      "pushed_at": "2026-10-13T06:41:36Z",
+      "star_delta": 11,
+      "stars": 123295,
+      "url": "https://github.com/electron/electron"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2023-06-19T16:28:59Z",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "forks": 63910,
+      "id": 655806940,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "name_with_owner": "microsoft/generative-ai-for-beginners",
+      "open_issues": 17,
+      "pushed_at": "2026-10-12T02:16:31Z",
+      "star_delta": 64,
+      "stars": 121284,
+      "url": "https://github.com/microsoft/generative-ai-for-beginners"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-03-31T16:37:01Z",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "forks": 13442,
+      "id": 1197515131,
+      "language": "",
+      "license": "MIT",
+      "name_with_owner": "VoltAgent/awesome-design-md",
+      "open_issues": 312,
+      "pushed_at": "2026-10-12T13:17:12Z",
+      "star_delta": 295,
+      "stars": 120680,
+      "url": "https://github.com/VoltAgent/awesome-design-md"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2010-06-16T20:39:03Z",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "forks": 18416,
+      "id": 724712,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "rust-lang/rust",
+      "open_issues": 12552,
+      "pushed_at": "2026-10-13T05:00:04Z",
+      "star_delta": 50,
+      "stars": 119769,
+      "url": "https://github.com/rust-lang/rust"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2014-01-04T16:05:36Z",
+      "description": "Godot Engine – Multi-platform 2D and 3D game engine",
+      "forks": 27036,
+      "id": 15634981,
+      "language": "C++",
+      "license": "MIT",
+      "name_with_owner": "godotengine/godot",
+      "open_issues": 18871,
+      "pushed_at": "2026-10-12T22:40:11Z",
+      "star_delta": 68,
+      "stars": 118355,
+      "url": "https://github.com/godotengine/godot"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2019-07-30T03:47:24Z",
+      "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+      "forks": 16090,
+      "id": 199570071,
+      "language": "C#",
+      "license": "GPL-3.0",
+      "name_with_owner": "2dust/v2rayN",
+      "open_issues": 25,
+      "pushed_at": "2026-10-11T05:59:58Z",
+      "star_delta": 136,
+      "stars": 118037,
+      "url": "https://github.com/2dust/v2rayN"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2024-10-31T16:00:56Z",
+      "description": "Agents that use the browser.",
+      "forks": 13036,
+      "id": 881458615,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "browser-use/browser-use",
+      "open_issues": 527,
+      "pushed_at": "2026-10-09T17:36:28Z",
+      "star_delta": 107,
+      "stars": 117784,
+      "url": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2010-03-23T18:58:01Z",
+      "description": "JavaScript 3D Library.",
+      "forks": 36629,
+      "id": 576201,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "mrdoob/three.js",
+      "open_issues": 400,
+      "pushed_at": "2026-10-13T01:13:40Z",
+      "star_delta": 66,
+      "stars": 116328,
+      "url": "https://github.com/mrdoob/three.js"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2022-02-03T15:56:27Z",
+      "description": "High performance self-hosted photo and video management solution.",
+      "forks": 7206,
+      "id": 455229168,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "name_with_owner": "immich-app/immich",
+      "open_issues": 724,
+      "pushed_at": "2026-10-13T06:51:34Z",
+      "star_delta": 68,
+      "stars": 116130,
+      "url": "https://github.com/immich-app/immich"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2016-07-17T15:33:47Z",
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "forks": 9324,
+      "id": 63539055,
+      "language": "Swift",
+      "license": "CC0-1.0",
+      "name_with_owner": "jaywcjlove/awesome-mac",
+      "open_issues": 1304,
+      "pushed_at": "2026-10-13T03:34:53Z",
+      "star_delta": 98,
+      "stars": 115987,
+      "url": "https://github.com/jaywcjlove/awesome-mac"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-08-09T14:03:50Z",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "forks": 14613,
+      "id": 1035029907,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "earendil-works/pi",
+      "open_issues": 321,
+      "pushed_at": "2026-10-12T23:37:23Z",
+      "star_delta": 332,
+      "stars": 114730,
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2019-07-13T09:09:37Z",
+      "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+      "forks": 4070,
+      "id": 196701619,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "tauri-apps/tauri",
+      "open_issues": 1501,
+      "pushed_at": "2026-10-13T02:46:57Z",
+      "star_delta": 44,
+      "stars": 111828,
+      "url": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2019-10-12T05:56:49Z",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "forks": 16589,
+      "id": 214587193,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "name_with_owner": "supabase/supabase",
+      "open_issues": 1154,
+      "pushed_at": "2026-10-13T06:08:08Z",
+      "star_delta": 72,
+      "stars": 111453,
+      "url": "https://github.com/supabase/supabase"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2014-06-17T15:28:39Z",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "forks": 16558,
+      "id": 20929025,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "name_with_owner": "microsoft/TypeScript",
+      "open_issues": 5112,
+      "pushed_at": "2026-10-12T23:40:53Z",
+      "star_delta": 17,
+      "stars": 111432,
+      "url": "https://github.com/microsoft/TypeScript"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-04-04T10:03:00Z",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "forks": 6453,
+      "id": 1201173969,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "name_with_owner": "JuliusBrussee/caveman",
+      "open_issues": 63,
+      "pushed_at": "2026-10-13T04:36:17Z",
+      "star_delta": 193,
+      "stars": 111292,
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2015-12-21T15:24:59Z",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "forks": 15241,
+      "id": 48378947,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "name_with_owner": "fatedier/frp",
+      "open_issues": 35,
+      "pushed_at": "2026-10-13T02:46:35Z",
+      "star_delta": 24,
+      "stars": 109864,
+      "url": "https://github.com/fatedier/frp"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2014-08-18T22:30:27Z",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "forks": 11911,
+      "id": 23088740,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "axios/axios",
+      "open_issues": 109,
+      "pushed_at": "2026-10-12T17:26:10Z",
+      "star_delta": -1,
+      "stars": 109362,
+      "url": "https://github.com/axios/axios"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2018-05-15T01:34:26Z",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "forks": 6465,
+      "id": 133442384,
+      "language": "Rust",
+      "license": "MIT",
+      "name_with_owner": "denoland/deno",
+      "open_issues": 1699,
+      "pushed_at": "2026-10-07T13:56:06Z",
+      "star_delta": 11,
+      "stars": 108773,
+      "url": "https://github.com/denoland/deno"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-04-17T17:04:31Z",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "forks": 14706,
+      "id": 968197216,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "name_with_owner": "google-gemini/gemini-cli",
+      "open_issues": 755,
+      "pushed_at": "2026-10-13T01:36:44Z",
+      "star_delta": 13,
+      "stars": 107306,
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-02-15T20:20:26Z",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "forks": 11036,
+      "id": 1158722119,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "addyosmani/agent-skills",
+      "open_issues": 131,
+      "pushed_at": "2026-10-10T08:28:49Z",
+      "star_delta": 623,
+      "stars": 105785,
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2017-08-11T18:38:22Z",
+      "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+      "forks": 9660,
+      "id": 100060912,
+      "language": "C++",
+      "license": "MIT",
+      "name_with_owner": "microsoft/terminal",
+      "open_issues": 1778,
+      "pushed_at": "2026-10-12T20:12:58Z",
+      "star_delta": 8,
+      "stars": 105150,
+      "url": "https://github.com/microsoft/terminal"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2018-12-08T08:21:47Z",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "forks": 10029,
+      "id": 160919119,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "fastapi/fastapi",
+      "open_issues": 88,
+      "pushed_at": "2026-10-08T12:29:28Z",
+      "star_delta": 40,
+      "stars": 103067,
+      "url": "https://github.com/fastapi/fastapi"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2020-02-29T10:43:49Z",
+      "description": "Programmer's guide about how to cook at home.",
+      "forks": 11121,
+      "id": 243950408,
+      "language": "",
+      "license": "Unlicense",
+      "name_with_owner": "Anduin2017/HowToCook",
+      "open_issues": 467,
+      "pushed_at": "2026-10-11T09:56:35Z",
+      "star_delta": 30,
+      "stars": 102747,
+      "url": "https://github.com/Anduin2017/HowToCook"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-03-02T15:01:51Z",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "forks": 16989,
+      "id": 1170821064,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "paperclipai/paperclip",
+      "open_issues": 6028,
+      "pushed_at": "2026-10-13T06:47:00Z",
+      "star_delta": 627,
+      "stars": 101120,
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2014-09-18T16:12:01Z",
+      "description": "Deliver web apps with confidence 🚀",
+      "forks": 30122,
+      "id": 24195339,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "angular/angular",
+      "open_issues": 1160,
+      "pushed_at": "2026-10-13T03:33:40Z",
+      "star_delta": 8,
+      "stars": 101039,
+      "url": "https://github.com/angular/angular"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2026-04-28T04:25:20Z",
+      "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+      "forks": 11618,
+      "id": 1223170290,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "name_with_owner": "nexu-io/open-design",
+      "open_issues": 1164,
+      "pushed_at": "2026-10-13T06:49:00Z",
+      "star_delta": 188,
+      "stars": 100820,
+      "url": "https://github.com/nexu-io/open-design"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-08-31T20:50:03Z",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "forks": 8783,
+      "id": 1048065319,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "name_with_owner": "thedotmack/claude-mem",
+      "open_issues": 87,
+      "pushed_at": "2026-10-13T03:07:25Z",
+      "star_delta": 374,
+      "stars": 100192,
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2015-04-24T15:37:24Z",
+      "description": "An enterprise-class UI design language and React UI library",
+      "forks": 54663,
+      "id": 34526884,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "ant-design/ant-design",
+      "open_issues": 1115,
+      "pushed_at": "2026-10-13T06:19:29Z",
+      "star_delta": 8,
+      "stars": 99749,
+      "url": "https://github.com/ant-design/ant-design"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2014-08-18T19:11:54Z",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "forks": 32505,
+      "id": 23083156,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "mui/material-ui",
+      "open_issues": 1515,
+      "pushed_at": "2026-10-13T06:41:22Z",
+      "star_delta": 4,
+      "stars": 99196,
+      "url": "https://github.com/mui/material-ui"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2017-10-06T14:59:14Z",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "forks": 8271,
+      "id": 106017343,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "tailwindlabs/tailwindcss",
+      "open_issues": 102,
+      "pushed_at": "2026-10-12T15:57:46Z",
+      "star_delta": 9,
+      "stars": 97897,
+      "url": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2025-06-07T04:32:30Z",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "forks": 12801,
+      "id": 997737944,
+      "language": "Rust",
+      "license": "MIT",
+      "name_with_owner": "ruvnet/RuView",
+      "open_issues": 412,
+      "pushed_at": "2026-10-13T06:30:09Z",
+      "star_delta": 259,
+      "stars": 97670,
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "categories": [
+        "active_popular"
+      ],
+      "created_at": "2019-11-15T18:32:42Z",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+      "forks": 6597,
+      "id": 221981891,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "name_with_owner": "microsoft/playwright",
+      "open_issues": 190,
+      "pushed_at": "2026-10-12T23:49:59Z",
+      "star_delta": 74,
+      "stars": 97585,
+      "url": "https://github.com/microsoft/playwright"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-30T13:37:48Z",
+      "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+      "forks": 9160,
+      "id": 1398080271,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/photocraft",
+      "open_issues": 1263,
+      "pushed_at": "2026-10-13T06:49:44Z",
+      "star_delta": 5628,
+      "stars": 54655,
+      "url": "https://github.com/storytold/photocraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-18T04:46:33Z",
+      "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+      "forks": 2916,
+      "id": 1375382253,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "NandhaKishorM/laya",
+      "open_issues": 125,
+      "pushed_at": "2026-10-12T09:30:04Z",
+      "star_delta": 213,
+      "stars": 32616,
+      "url": "https://github.com/NandhaKishorM/laya"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-24T16:40:20Z",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "forks": 2264,
+      "id": 1385946301,
+      "language": "C++",
+      "license": "MIT",
+      "name_with_owner": "Niko1221/Strata",
+      "open_issues": 909,
+      "pushed_at": "2026-10-12T17:28:20Z",
+      "star_delta": 1112,
+      "stars": 23030,
+      "url": "https://github.com/Niko1221/Strata"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-16T21:30:12Z",
+      "description": "Fastest and cheapest web agent",
+      "forks": 1676,
+      "id": 1373655162,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "browser-use/jev-ultrafast",
+      "open_issues": 190,
+      "pushed_at": "2026-09-30T01:24:38Z",
+      "star_delta": 121,
+      "stars": 22776,
+      "url": "https://github.com/browser-use/jev-ultrafast"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-16T20:35:54Z",
+      "description": "The Photoshop alternative for Mac",
+      "forks": 1589,
+      "id": 1373614120,
+      "language": "Swift",
+      "license": "MIT",
+      "name_with_owner": "robbietilton/Compositor",
+      "open_issues": 55,
+      "pushed_at": "2026-10-13T04:19:36Z",
+      "star_delta": 461,
+      "stars": 16517,
+      "url": "https://github.com/robbietilton/Compositor"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-06T21:47:02Z",
+      "description": "",
+      "forks": 1642,
+      "id": 1407950271,
+      "language": "Lean",
+      "license": "Apache-2.0",
+      "name_with_owner": "openai/math",
+      "open_issues": 0,
+      "pushed_at": "2026-10-12T21:55:27Z",
+      "star_delta": 341,
+      "stars": 14512,
+      "url": "https://github.com/openai/math"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-24T16:17:19Z",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "forks": 248,
+      "id": 1385896447,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "Ebony-Vinyl/dsh-our-free-model",
+      "open_issues": 159,
+      "pushed_at": "2026-10-12T06:35:01Z",
+      "star_delta": 2843,
+      "stars": 12622,
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-30T13:41:20Z",
+      "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
+      "forks": 4745,
+      "id": 1398091865,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/filmcraft",
+      "open_issues": 581,
+      "pushed_at": "2026-10-13T06:38:03Z",
+      "star_delta": 1350,
+      "stars": 11784,
+      "url": "https://github.com/storytold/filmcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-30T13:39:37Z",
+      "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+      "forks": 4485,
+      "id": 1398086162,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/pdfcraft",
+      "open_issues": 583,
+      "pushed_at": "2026-10-13T06:49:38Z",
+      "star_delta": 1815,
+      "stars": 11771,
+      "url": "https://github.com/storytold/pdfcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-30T14:09:27Z",
+      "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
+      "forks": 4111,
+      "id": 1398185212,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/lightcraft",
+      "open_issues": 541,
+      "pushed_at": "2026-10-13T06:18:34Z",
+      "star_delta": 1040,
+      "stars": 11441,
+      "url": "https://github.com/storytold/lightcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-23T16:22:35Z",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "forks": 716,
+      "id": 1383809012,
+      "language": "Go",
+      "license": "MIT",
+      "name_with_owner": "yetone/magpie",
+      "open_issues": 561,
+      "pushed_at": "2026-10-13T06:50:52Z",
+      "star_delta": 1058,
+      "stars": 10784,
+      "url": "https://github.com/yetone/magpie"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-24T15:36:38Z",
+      "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+      "forks": 1268,
+      "id": 1385817306,
+      "language": "Kotlin",
+      "license": "GPL-3.0",
+      "name_with_owner": "shihabal3amri/DiPlay",
+      "open_issues": 153,
+      "pushed_at": "2026-10-13T02:04:11Z",
+      "star_delta": 562,
+      "stars": 10079,
+      "url": "https://github.com/shihabal3amri/DiPlay"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-07T08:34:24Z",
+      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "forks": 2507,
+      "id": 1408489772,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/wordcraft",
+      "open_issues": 460,
+      "pushed_at": "2026-10-12T16:22:14Z",
+      "star_delta": 2955,
+      "stars": 9665,
+      "url": "https://github.com/storytold/wordcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-17T20:49:39Z",
+      "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
+      "forks": 603,
+      "id": 1375069862,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "jaredpalmer/kev",
+      "open_issues": 35,
+      "pushed_at": "2026-10-12T14:30:16Z",
+      "star_delta": 67,
+      "stars": 9022,
+      "url": "https://github.com/jaredpalmer/kev"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-30T13:43:03Z",
+      "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
+      "forks": 3759,
+      "id": 1398097510,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/vectorcraft",
+      "open_issues": 239,
+      "pushed_at": "2026-10-13T06:31:52Z",
+      "star_delta": 788,
+      "stars": 8047,
+      "url": "https://github.com/storytold/vectorcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-20T12:01:16Z",
+      "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "forks": 2376,
+      "id": 1378288598,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "name_with_owner": "zai-org/ZCode",
+      "open_issues": 11,
+      "pushed_at": "2026-10-10T11:02:50Z",
+      "star_delta": 46,
+      "stars": 7742,
+      "url": "https://github.com/zai-org/ZCode"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-21T11:12:53Z",
+      "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+      "forks": 1254,
+      "id": 1379574728,
+      "language": "Kotlin",
+      "license": "MIT",
+      "name_with_owner": "jev-chat/jev-chat-jarvis",
+      "open_issues": 28,
+      "pushed_at": "2026-10-08T08:08:04Z",
+      "star_delta": 51,
+      "stars": 7683,
+      "url": "https://github.com/jev-chat/jev-chat-jarvis"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-17T05:57:20Z",
+      "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+      "forks": 538,
+      "id": 1374005005,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "tamaratran/fast-jev-compaction",
+      "open_issues": 112,
+      "pushed_at": "2026-09-18T04:45:31Z",
+      "star_delta": 21,
+      "stars": 7610,
+      "url": "https://github.com/tamaratran/fast-jev-compaction"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-28T23:40:05Z",
+      "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "forks": 1793,
+      "id": 1393965829,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "KKKKhazix/AIHOT",
+      "open_issues": 0,
+      "pushed_at": "2026-10-12T06:12:01Z",
+      "star_delta": 181,
+      "stars": 7433,
+      "url": "https://github.com/KKKKhazix/AIHOT"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-30T05:00:35Z",
+      "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+      "forks": 749,
+      "id": 1397016507,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "rehan-remade/universal-modder",
+      "open_issues": 28,
+      "pushed_at": "2026-10-13T00:36:35Z",
+      "star_delta": 424,
+      "stars": 7163,
+      "url": "https://github.com/rehan-remade/universal-modder"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-19T13:50:26Z",
+      "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+      "forks": 558,
+      "id": 1377211520,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "mizorewww/laya-mlx",
+      "open_issues": 0,
+      "pushed_at": "2026-10-10T01:40:05Z",
+      "star_delta": 22,
+      "stars": 6898,
+      "url": "https://github.com/mizorewww/laya-mlx"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-08T10:12:49Z",
+      "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+      "forks": 492,
+      "id": 1410124849,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "wheresryan22/anatomy",
+      "open_issues": 4,
+      "pushed_at": "2026-10-12T22:40:08Z",
+      "star_delta": 2828,
+      "stars": 6814,
+      "url": "https://github.com/wheresryan22/anatomy"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-24T15:14:13Z",
+      "description": "DroidDeck brings the SteamOS experience to Android",
+      "forks": 286,
+      "id": 1385776214,
+      "language": "Kotlin",
+      "license": "GPL-3.0",
+      "name_with_owner": "Droid-Deck/DroidDeck",
+      "open_issues": 210,
+      "pushed_at": "2026-10-13T05:42:40Z",
+      "star_delta": 1539,
+      "stars": 6537,
+      "url": "https://github.com/Droid-Deck/DroidDeck"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-16T22:20:15Z",
+      "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+      "forks": 441,
+      "id": 1373687654,
+      "language": "Swift",
+      "license": "MIT",
+      "name_with_owner": "Mak5er/AirCard",
+      "open_issues": 67,
+      "pushed_at": "2026-10-05T19:43:58Z",
+      "star_delta": 30,
+      "stars": 6525,
+      "url": "https://github.com/Mak5er/AirCard"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-01T14:24:46Z",
+      "description": "EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust",
+      "forks": 3014,
+      "id": 1400136506,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/effectcraft",
+      "open_issues": 401,
+      "pushed_at": "2026-10-12T21:22:54Z",
+      "star_delta": 627,
+      "stars": 5906,
+      "url": "https://github.com/storytold/effectcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-29T17:13:58Z",
+      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+      "forks": 719,
+      "id": 1396117711,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "CopilotKit/OpenDots",
+      "open_issues": 75,
+      "pushed_at": "2026-10-12T02:20:19Z",
+      "star_delta": 151,
+      "stars": 5092,
+      "url": "https://github.com/CopilotKit/OpenDots"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-27T21:54:12Z",
+      "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+      "forks": 838,
+      "id": 1391438314,
+      "language": "Swift",
+      "license": "MIT",
+      "name_with_owner": "Louis-CFM/coucou",
+      "open_issues": 313,
+      "pushed_at": "2026-10-12T20:31:09Z",
+      "star_delta": 142,
+      "stars": 5004,
+      "url": "https://github.com/Louis-CFM/coucou"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-16T03:51:21Z",
+      "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
+      "forks": 352,
+      "id": 1372482979,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "TheoLeeCJ/SemIf-OpenJev",
+      "open_issues": 48,
+      "pushed_at": "2026-09-23T18:48:22Z",
+      "star_delta": 18,
+      "stars": 4803,
+      "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-15T16:05:44Z",
+      "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
+      "forks": 655,
+      "id": 1371757322,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "CopilotKit/openmuse",
+      "open_issues": 51,
+      "pushed_at": "2026-10-13T00:37:05Z",
+      "star_delta": 88,
+      "stars": 4798,
+      "url": "https://github.com/CopilotKit/openmuse"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-27T06:19:36Z",
+      "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+      "forks": 501,
+      "id": 1390273274,
+      "language": "",
+      "license": "MIT",
+      "name_with_owner": "yihui-dev/awesome-opus5-5-videos",
+      "open_issues": 3,
+      "pushed_at": "2026-10-12T06:08:04Z",
+      "star_delta": 381,
+      "stars": 4686,
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-29T16:36:26Z",
+      "description": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
+      "forks": 191,
+      "id": 1395994653,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "shader-effects-inc/shaders",
+      "open_issues": 0,
+      "pushed_at": "2026-10-09T13:24:56Z",
+      "star_delta": 175,
+      "stars": 4654,
+      "url": "https://github.com/shader-effects-inc/shaders"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-29T11:02:39Z",
+      "description": "Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
+      "forks": 121,
+      "id": 1394989252,
+      "language": "Swift",
+      "license": "MIT",
+      "name_with_owner": "omlahore/RemoveMacAI",
+      "open_issues": 8,
+      "pushed_at": "2026-10-12T10:04:11Z",
+      "star_delta": 149,
+      "stars": 4495,
+      "url": "https://github.com/omlahore/RemoveMacAI"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-07T05:18:16Z",
+      "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
+      "forks": 1748,
+      "id": 1408285582,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/gridcraft",
+      "open_issues": 303,
+      "pushed_at": "2026-10-13T06:08:31Z",
+      "star_delta": 857,
+      "stars": 3996,
+      "url": "https://github.com/storytold/gridcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-19T13:12:54Z",
+      "description": "Suitable for Android APK reverse engineering analysis",
+      "forks": 748,
+      "id": 1377172300,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "newliver666/apk-reverse",
+      "open_issues": 0,
+      "pushed_at": "2026-09-24T09:22:21Z",
+      "star_delta": 185,
+      "stars": 3725,
+      "url": "https://github.com/newliver666/apk-reverse"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-08T05:33:06Z",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "forks": 6079,
+      "id": 1409787646,
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "name_with_owner": "mhtsec/ARTEX",
+      "open_issues": 1,
+      "pushed_at": "2026-10-10T09:16:20Z",
+      "star_delta": 381,
+      "stars": 3701,
+      "url": "https://github.com/mhtsec/ARTEX"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-06T04:49:37Z",
+      "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+      "forks": 409,
+      "id": 1406706284,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "alchaincyf/huashu-art-motion",
+      "open_issues": 3,
+      "pushed_at": "2026-10-13T06:51:20Z",
+      "star_delta": 250,
+      "stars": 3692,
+      "url": "https://github.com/alchaincyf/huashu-art-motion"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-15T21:42:26Z",
+      "description": "Receive-only Wi-Fi and Bluetooth LE observer for Android. MIT.",
+      "forks": 452,
+      "id": 1372164083,
+      "language": "Kotlin",
+      "license": "MIT",
+      "name_with_owner": "OffGridPete/Fieldwatch",
+      "open_issues": 5,
+      "pushed_at": "2026-10-12T17:10:43Z",
+      "star_delta": 615,
+      "stars": 3663,
+      "url": "https://github.com/OffGridPete/Fieldwatch"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-07T05:22:31Z",
+      "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+      "forks": 1683,
+      "id": 1408289866,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/cadcraft",
+      "open_issues": 274,
+      "pushed_at": "2026-10-12T16:40:00Z",
+      "star_delta": 806,
+      "stars": 3651,
+      "url": "https://github.com/storytold/cadcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-01T13:13:14Z",
+      "description": "DesignCraft: An open-source page and layout design editor written by scratch in pure Rust",
+      "forks": 2340,
+      "id": 1400018213,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/designcraft",
+      "open_issues": 402,
+      "pushed_at": "2026-10-12T23:21:53Z",
+      "star_delta": 397,
+      "stars": 3493,
+      "url": "https://github.com/storytold/designcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-29T01:29:57Z",
+      "description": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
+      "forks": 144,
+      "id": 1394045721,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "nykooi1/vibe-wise",
+      "open_issues": 22,
+      "pushed_at": "2026-10-09T09:37:21Z",
+      "star_delta": 62,
+      "stars": 3490,
+      "url": "https://github.com/nykooi1/vibe-wise"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-06T15:09:33Z",
+      "description": "让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。",
+      "forks": 346,
+      "id": 1407504032,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "zhongerxin/iPhone-use",
+      "open_issues": 17,
+      "pushed_at": "2026-10-10T13:58:28Z",
+      "star_delta": 233,
+      "stars": 3418,
+      "url": "https://github.com/zhongerxin/iPhone-use"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-15T09:41:57Z",
+      "description": "Speed up downloads by combining multiple network connections in parallel",
+      "forks": 220,
+      "id": 1371220575,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "anmolkapil/plexo",
+      "open_issues": 16,
+      "pushed_at": "2026-10-12T10:45:37Z",
+      "star_delta": 1731,
+      "stars": 3369,
+      "url": "https://github.com/anmolkapil/plexo"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-02T09:57:40Z",
+      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "forks": 216,
+      "id": 1401476500,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "QingYunA/answer-me-with-html",
+      "open_issues": 3,
+      "pushed_at": "2026-10-13T06:10:47Z",
+      "star_delta": 274,
+      "stars": 3206,
+      "url": "https://github.com/QingYunA/answer-me-with-html"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-06T20:14:19Z",
+      "description": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+      "forks": 381,
+      "id": 1407873347,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "LosaLosSantos/aurelio-finance",
+      "open_issues": 0,
+      "pushed_at": "2026-10-12T20:11:29Z",
+      "star_delta": 641,
+      "stars": 3045,
+      "url": "https://github.com/LosaLosSantos/aurelio-finance"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-23T19:29:56Z",
+      "description": "Contrastive Language Models (CLMs) are a new class of System One model trained with a contrastive learning objective that connects states and actions.",
+      "forks": 262,
+      "id": 1384094559,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "Contrastive-LM/CLM",
+      "open_issues": 28,
+      "pushed_at": "2026-10-05T21:13:17Z",
+      "star_delta": 20,
+      "stars": 3003,
+      "url": "https://github.com/Contrastive-LM/CLM"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-16T21:36:20Z",
+      "description": "One AI trade decision every Monad block. Jev on Kuru MON-USDC.",
+      "forks": 566,
+      "id": 1373659194,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "jarrodwatts/jev-trader",
+      "open_issues": 0,
+      "pushed_at": "2026-10-13T04:21:31Z",
+      "star_delta": 20,
+      "stars": 2970,
+      "url": "https://github.com/jarrodwatts/jev-trader"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-26T08:23:34Z",
+      "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+      "forks": 221,
+      "id": 1388867993,
+      "language": "HTML",
+      "license": "MIT",
+      "name_with_owner": "kaankiziltug/logo-design-skill",
+      "open_issues": 1,
+      "pushed_at": "2026-09-30T18:16:50Z",
+      "star_delta": 167,
+      "stars": 2961,
+      "url": "https://github.com/kaankiziltug/logo-design-skill"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-24T20:56:29Z",
+      "description": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+      "forks": 177,
+      "id": 1386355153,
+      "language": "Rust",
+      "license": "MIT",
+      "name_with_owner": "tobi/disktree",
+      "open_issues": 47,
+      "pushed_at": "2026-10-04T19:07:54Z",
+      "star_delta": 69,
+      "stars": 2869,
+      "url": "https://github.com/tobi/disktree"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-29T23:06:00Z",
+      "description": "Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.",
+      "forks": 471,
+      "id": 1396688303,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "feder-cr/invisible_playwright_mcp",
+      "open_issues": 3,
+      "pushed_at": "2026-10-12T22:26:12Z",
+      "star_delta": 13,
+      "stars": 2763,
+      "url": "https://github.com/feder-cr/invisible_playwright_mcp"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-24T21:33:53Z",
+      "description": "Code-rendered music video for \"I'm Upping My P(doom)\"",
+      "forks": 297,
+      "id": 1386391454,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "mexicat/pdoom-video",
+      "open_issues": 2,
+      "pushed_at": "2026-10-05T21:26:25Z",
+      "star_delta": 35,
+      "stars": 2693,
+      "url": "https://github.com/mexicat/pdoom-video"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-07T05:27:21Z",
+      "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+      "forks": 1441,
+      "id": 1408294296,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/deckcraft",
+      "open_issues": 245,
+      "pushed_at": "2026-10-13T03:56:03Z",
+      "star_delta": 562,
+      "stars": 2683,
+      "url": "https://github.com/storytold/deckcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-01T05:50:31Z",
+      "description": "",
+      "forks": 463,
+      "id": 1399236672,
+      "language": "C++",
+      "license": "GPL-2.0",
+      "name_with_owner": "deadinside28/bloodborne_pc",
+      "open_issues": 105,
+      "pushed_at": "2026-10-10T22:57:40Z",
+      "star_delta": 155,
+      "stars": 2653,
+      "url": "https://github.com/deadinside28/bloodborne_pc"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-26T04:06:56Z",
+      "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+      "forks": 194,
+      "id": 1388482474,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "dzhng/jevgrep",
+      "open_issues": 29,
+      "pushed_at": "2026-10-12T08:39:00Z",
+      "star_delta": 32,
+      "stars": 2644,
+      "url": "https://github.com/dzhng/jevgrep"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-28T05:56:04Z",
+      "description": "🦀 Jumper — an crab robot.",
+      "forks": 248,
+      "id": 1391948723,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "KingKongRobotics/jumper",
+      "open_issues": 7,
+      "pushed_at": "2026-10-10T01:48:22Z",
+      "star_delta": 137,
+      "stars": 2550,
+      "url": "https://github.com/KingKongRobotics/jumper"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-17T16:08:30Z",
+      "description": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
+      "forks": 261,
+      "id": 1374702542,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "TianyuCodings/NanoJev",
+      "open_issues": 9,
+      "pushed_at": "2026-09-21T09:58:28Z",
+      "star_delta": 8,
+      "stars": 2538,
+      "url": "https://github.com/TianyuCodings/NanoJev"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-29T21:01:10Z",
+      "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
+      "forks": 64,
+      "id": 1396591019,
+      "language": "C#",
+      "license": "GPL-3.0",
+      "name_with_owner": "BlueHeisenberg/SCSKiller",
+      "open_issues": 75,
+      "pushed_at": "2026-10-11T17:50:47Z",
+      "star_delta": 334,
+      "stars": 2529,
+      "url": "https://github.com/BlueHeisenberg/SCSKiller"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-20T10:29:47Z",
+      "description": "A small, fast WebKit browser for macOS, by Office Commun.",
+      "forks": 235,
+      "id": 1378216647,
+      "language": "Swift",
+      "license": "MIT",
+      "name_with_owner": "driceroland/Search",
+      "open_issues": 99,
+      "pushed_at": "2026-10-10T11:16:19Z",
+      "star_delta": 9,
+      "stars": 2515,
+      "url": "https://github.com/driceroland/Search"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-28T19:14:59Z",
+      "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+      "forks": 259,
+      "id": 1393689296,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "edenfunf/reelmimic",
+      "open_issues": 28,
+      "pushed_at": "2026-10-12T11:13:49Z",
+      "star_delta": 115,
+      "stars": 2485,
+      "url": "https://github.com/edenfunf/reelmimic"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-07T08:31:31Z",
+      "description": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
+      "forks": 1421,
+      "id": 1408486424,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/soundcraft",
+      "open_issues": 258,
+      "pushed_at": "2026-10-12T15:57:05Z",
+      "star_delta": 420,
+      "stars": 2328,
+      "url": "https://github.com/storytold/soundcraft"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-18T08:51:34Z",
+      "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+      "forks": 283,
+      "id": 1375615157,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "Oldcircle/geo-sleuth",
+      "open_issues": 5,
+      "pushed_at": "2026-10-12T03:20:01Z",
+      "star_delta": 255,
+      "stars": 2249,
+      "url": "https://github.com/Oldcircle/geo-sleuth"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-03T12:07:49Z",
+      "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+      "forks": 321,
+      "id": 1403115747,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "Jakeschincariol/replica-skill",
+      "open_issues": 5,
+      "pushed_at": "2026-10-03T12:07:53Z",
+      "star_delta": 253,
+      "stars": 2215,
+      "url": "https://github.com/Jakeschincariol/replica-skill"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-29T02:57:30Z",
+      "description": "",
+      "forks": 419,
+      "id": 1394134758,
+      "language": "HTML",
+      "license": "MIT",
+      "name_with_owner": "wy51ai/floorplan-3d",
+      "open_issues": 7,
+      "pushed_at": "2026-10-02T02:32:11Z",
+      "star_delta": 32,
+      "stars": 2203,
+      "url": "https://github.com/wy51ai/floorplan-3d"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-21T23:14:02Z",
+      "description": "Async-first agent harness",
+      "forks": 128,
+      "id": 1380635125,
+      "language": "Go",
+      "license": "MIT",
+      "name_with_owner": "unreallabsai/unreal-agent",
+      "open_issues": 8,
+      "pushed_at": "2026-10-06T17:28:03Z",
+      "star_delta": 2,
+      "stars": 2192,
+      "url": "https://github.com/unreallabsai/unreal-agent"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-26T10:10:41Z",
+      "description": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+      "forks": 225,
+      "id": 1389011744,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "lemomo-ai/lemo-opuscar",
+      "open_issues": 1,
+      "pushed_at": "2026-10-12T11:56:09Z",
+      "star_delta": 147,
+      "stars": 2096,
+      "url": "https://github.com/lemomo-ai/lemo-opuscar"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-02T18:21:23Z",
+      "description": "Open source SDK to build Muse gadgets",
+      "forks": 429,
+      "id": 1402193143,
+      "language": "C",
+      "license": "Apache-2.0",
+      "name_with_owner": "facebookincubator/muse-gadget-sdk",
+      "open_issues": 98,
+      "pushed_at": "2026-10-13T03:18:20Z",
+      "star_delta": 81,
+      "stars": 2081,
+      "url": "https://github.com/facebookincubator/muse-gadget-sdk"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-21T02:12:24Z",
+      "description": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
+      "forks": 220,
+      "id": 1378971656,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "deepopen-com/deepopen",
+      "open_issues": 15,
+      "pushed_at": "2026-09-28T20:36:42Z",
+      "star_delta": 0,
+      "stars": 2048,
+      "url": "https://github.com/deepopen-com/deepopen"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-17T19:45:13Z",
+      "description": "Exploit chain for PS5 7.00 - 13.60",
+      "forks": 517,
+      "id": 1374998940,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name_with_owner": "ntfargo/Relapse-Exploit",
+      "open_issues": 10,
+      "pushed_at": "2026-09-30T19:28:05Z",
+      "star_delta": 85,
+      "stars": 2009,
+      "url": "https://github.com/ntfargo/Relapse-Exploit"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-08T20:37:51Z",
+      "description": "Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind's EmbeddingGemma 2.",
+      "forks": 152,
+      "id": 1410929004,
+      "language": "Swift",
+      "license": "MIT",
+      "name_with_owner": "ARahim3/DigUp",
+      "open_issues": 46,
+      "pushed_at": "2026-10-12T16:25:08Z",
+      "star_delta": null,
+      "stars": 2008,
+      "url": "https://github.com/ARahim3/DigUp"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-08T17:50:33Z",
+      "description": "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.",
+      "forks": 131,
+      "id": 1410750399,
+      "language": "Rust",
+      "license": "MIT",
+      "name_with_owner": "noahdunnagan/fsearch",
+      "open_issues": 1,
+      "pushed_at": "2026-10-12T18:33:47Z",
+      "star_delta": 94,
+      "stars": 1991,
+      "url": "https://github.com/noahdunnagan/fsearch"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-30T11:49:32Z",
+      "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+      "forks": 46,
+      "id": 1397771878,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "nanaism/yomiyasu",
+      "open_issues": 1,
+      "pushed_at": "2026-10-13T03:55:10Z",
+      "star_delta": 51,
+      "stars": 1926,
+      "url": "https://github.com/nanaism/yomiyasu"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-20T07:51:15Z",
+      "description": "Local-first desktop music search, playlist, download, and playback app for Windows and Linux",
+      "forks": 2,
+      "id": 1378081384,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "RubinLabs26/ISpotify",
+      "open_issues": 3,
+      "pushed_at": "2026-10-12T09:39:04Z",
+      "star_delta": 0,
+      "stars": 1900,
+      "url": "https://github.com/RubinLabs26/ISpotify"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-09T23:21:59Z",
+      "description": "The Craft App Launcher",
+      "forks": 641,
+      "id": 1412548284,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "name_with_owner": "storytold/craft-launcher",
+      "open_issues": 162,
+      "pushed_at": "2026-10-12T09:41:20Z",
+      "star_delta": null,
+      "stars": 1875,
+      "url": "https://github.com/storytold/craft-launcher"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-01T13:52:19Z",
+      "description": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
+      "forks": 108,
+      "id": 1400080206,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "lucasmarkes/hairline",
+      "open_issues": 5,
+      "pushed_at": "2026-10-08T13:20:37Z",
+      "star_delta": 102,
+      "stars": 1860,
+      "url": "https://github.com/lucasmarkes/hairline"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-23T04:04:13Z",
+      "description": "歌詞から文字PVを自動で組み立てるブラウザアプリ",
+      "forks": 259,
+      "id": 1382717255,
+      "language": "HTML",
+      "license": "MIT",
+      "name_with_owner": "852wa/JIZURA",
+      "open_issues": 25,
+      "pushed_at": "2026-10-01T08:24:41Z",
+      "star_delta": 31,
+      "stars": 1847,
+      "url": "https://github.com/852wa/JIZURA"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-19T09:22:23Z",
+      "description": " Apple Wallet card skins and lock screen passcode themes on iOS 27. ",
+      "forks": 215,
+      "id": 1376970259,
+      "language": "Swift",
+      "license": "MIT",
+      "name_with_owner": "Mak5er/AirCard-iOS",
+      "open_issues": 27,
+      "pushed_at": "2026-10-05T19:44:04Z",
+      "star_delta": 7,
+      "stars": 1823,
+      "url": "https://github.com/Mak5er/AirCard-iOS"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-11T03:47:06Z",
+      "description": "",
+      "forks": 176,
+      "id": 1413898431,
+      "language": "Rust",
+      "license": "MIT",
+      "name_with_owner": "liseami/CCBaga",
+      "open_issues": 0,
+      "pushed_at": "2026-10-13T02:43:07Z",
+      "star_delta": null,
+      "stars": 1806,
+      "url": "https://github.com/liseami/CCBaga"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-26T15:21:37Z",
+      "description": "Develop desktop apps with native UI or web frontend in Go",
+      "forks": 92,
+      "id": 1389416650,
+      "language": "Go",
+      "license": "MIT",
+      "name_with_owner": "egoist/mygo",
+      "open_issues": 45,
+      "pushed_at": "2026-10-12T21:41:31Z",
+      "star_delta": 181,
+      "stars": 1792,
+      "url": "https://github.com/egoist/mygo"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-13T21:25:08Z",
+      "description": "Make videos on the computer you already own. FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, and adapts its acceleration path to your hardware.",
+      "forks": 182,
+      "id": 1368913638,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "FlashML-org/FreeVideo",
+      "open_issues": 101,
+      "pushed_at": "2026-10-13T05:37:25Z",
+      "star_delta": 56,
+      "stars": 1779,
+      "url": "https://github.com/FlashML-org/FreeVideo"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-19T04:14:43Z",
+      "description": "Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers.",
+      "forks": 175,
+      "id": 1376713674,
+      "language": "Markdown",
+      "license": "Apache-2.0",
+      "name_with_owner": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "open_issues": 0,
+      "pushed_at": "2026-10-12T02:35:50Z",
+      "star_delta": 8,
+      "stars": 1739,
+      "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-10-04T10:55:58Z",
+      "description": "",
+      "forks": 376,
+      "id": 1404266247,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name_with_owner": "kargulstudio/sales-crm",
+      "open_issues": 12,
+      "pushed_at": "2026-10-06T06:42:03Z",
+      "star_delta": 8,
+      "stars": 1708,
+      "url": "https://github.com/kargulstudio/sales-crm"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-17T05:22:08Z",
+      "description": "An open-source AI platform for knowledge work. Connect your apps, find answers, and get work done.",
+      "forks": 496,
+      "id": 1373976608,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "name_with_owner": "hydra-db/open-glean",
+      "open_issues": 6,
+      "pushed_at": "2026-10-06T06:24:30Z",
+      "star_delta": 3,
+      "stars": 1590,
+      "url": "https://github.com/hydra-db/open-glean"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-19T23:14:13Z",
+      "description": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
+      "forks": 131,
+      "id": 1377694077,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name_with_owner": "mizorewww/laya-coreml",
+      "open_issues": 0,
+      "pushed_at": "2026-10-10T02:46:59Z",
+      "star_delta": 7,
+      "stars": 1577,
+      "url": "https://github.com/mizorewww/laya-coreml"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-28T16:18:39Z",
+      "description": "Millisecond decisions, any domain: a 0.8B open \"System 1\" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.",
+      "forks": 74,
+      "id": 1393229560,
+      "language": "Python",
+      "license": "MIT",
+      "name_with_owner": "firelex/jeff",
+      "open_issues": 1,
+      "pushed_at": "2026-10-07T12:39:50Z",
+      "star_delta": 6,
+      "stars": 1515,
+      "url": "https://github.com/firelex/jeff"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-23T01:55:23Z",
+      "description": "Steam Play for macOS",
+      "forks": 86,
+      "id": 1382575878,
+      "language": "Scala",
+      "license": "GPL-3.0",
+      "name_with_owner": "NotProtonNot/NotProton",
+      "open_issues": 31,
+      "pushed_at": "2026-10-13T04:42:54Z",
+      "star_delta": null,
+      "stars": 1504,
+      "url": "https://github.com/NotProtonNot/NotProton"
+    },
+    {
+      "categories": [
+        "new_and_rising"
+      ],
+      "created_at": "2026-09-30T10:20:07Z",
+      "description": "High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game engine.",
+      "forks": 57,
+      "id": 1397588814,
+      "language": "C#",
+      "license": "Apache-2.0",
+      "name_with_owner": "CAPCOM-TD-OSS/REDox",
+      "open_issues": 0,
+      "pushed_at": "2026-10-13T03:21:07Z",
+      "star_delta": 47,
+      "stars": 1500,
+      "url": "https://github.com/CAPCOM-TD-OSS/REDox"
+    }
+  ],
+  "schema_version": 1,
+  "source": "GitHub REST Search repositories API"
+}

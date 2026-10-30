@@ -8,65 +8,65 @@
 
 ## 最新雷达
 
-- UTC：`2026-10-29T05:56:16Z`
-- 北京时间：`2026-10-29T13:56:16+08:00`
+- UTC：`2026-10-30T05:57:21Z`
+- 北京时间：`2026-10-30T13:57:21+08:00`
 - 数据源：GitHub REST Search repositories API
-- 排除候选：39 个
+- 排除候选：43 个
 - 说明：Star 增量按相邻两次成功快照计算。
 
 ### 新晋热门项目
 
-查询规则：`created:>=2026-09-29 stars:>=100 fork:false archived:false`
+查询规则：`created:>=2026-09-30 stars:>=100 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [storytold/photocraft](https://github.com/storytold/photocraft) | 74,511 | +480 | Rust | Apache-2.0 | 2026-10-29 | PhotoCraft: An open-source, photo editor written by scratch in pure Rust |
-| [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 24,025 | +530 | Python | Apache-2.0 | 2026-10-26 | DeepInfer: High-performance, large-scale inference framework for DeepSeek models |
-| [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 22,247 | +690 | JavaScript | MIT | 2026-10-18 | An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. G… |
-| [google-research/harness2](https://github.com/google-research/harness2) | 21,096 | +435 | Python | Apache-2.0 | 2026-10-14 | - |
-| [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 18,497 | +214 | Rust | Apache-2.0 | 2026-10-29 | PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust |
-| [openai/math](https://github.com/openai/math) | 16,814 | +743 | Lean | Apache-2.0 | 2026-10-26 | - |
-| [storytold/filmcraft](https://github.com/storytold/filmcraft) | 16,756 | +150 | Rust | Apache-2.0 | 2026-10-28 | FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust |
-| [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 16,685 | +1534 | C# | MIT | 2026-10-29 | Free, open-source file converter. Convert 263 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HW… |
-| [storytold/wordcraft](https://github.com/storytold/wordcraft) | 16,498 | +106 | Rust | Apache-2.0 | 2026-10-28 | An open-source, clean-room reimplementation of Microsoft Word in pure Rust |
-| [storytold/lightcraft](https://github.com/storytold/lightcraft) | 14,990 | +106 | Rust | Apache-2.0 | 2026-10-28 | LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust |
-| [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 11,727 | +392 | Rust | Apache-2.0 | 2026-10-29 | SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. |
-| [storytold/vectorcraft](https://github.com/storytold/vectorcraft) | 10,954 | +82 | Rust | Apache-2.0 | 2026-10-29 | VectorCraft: An open-source, vector art tool written by scratch in pure Rust |
-| [seedds/nxnative](https://github.com/seedds/nxnative) | 9,174 | +1044 | Objective-C | MIT | 2026-10-29 | Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE… |
-| [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9,166 | +67 | Python | MIT | 2026-10-29 | Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, rev… |
-| [storytold/effectcraft](https://github.com/storytold/effectcraft) | 8,109 | +57 | Rust | Apache-2.0 | 2026-10-29 | EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust |
-| [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | 7,510 | +474 | Kotlin | MIT | 2026-10-29 | 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. |
-| [storytold/cadcraft](https://github.com/storytold/cadcraft) | 7,123 | +92 | Rust | Apache-2.0 | 2026-10-28 | CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust |
-| [storytold/gridcraft](https://github.com/storytold/gridcraft) | 6,749 | +61 | Rust | Apache-2.0 | 2026-10-28 | GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. |
-| [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) | 6,325 | +231 | C | MIT | 2026-10-29 | Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulat… |
-| [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 6,318 | +227 | Python | MIT | 2026-10-03 | Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its user… |
+| [storytold/photocraft](https://github.com/storytold/photocraft) | 74,912 | +401 | Rust | Apache-2.0 | 2026-10-30 | PhotoCraft: An open-source, photo editor written by scratch in pure Rust |
+| [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 24,322 | +297 | Python | Apache-2.0 | 2026-10-26 | DeepInfer: High-performance, large-scale inference framework for DeepSeek models |
+| [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 22,718 | +471 | JavaScript | MIT | 2026-10-18 | An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. G… |
+| [google-research/harness2](https://github.com/google-research/harness2) | 21,371 | +275 | Python | Apache-2.0 | 2026-10-14 | - |
+| [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 18,671 | +174 | Rust | Apache-2.0 | 2026-10-30 | PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust |
+| [openai/math](https://github.com/openai/math) | 17,081 | +267 | Lean | Apache-2.0 | 2026-10-30 | - |
+| [storytold/filmcraft](https://github.com/storytold/filmcraft) | 16,888 | +132 | Rust | Apache-2.0 | 2026-10-30 | FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust |
+| [storytold/wordcraft](https://github.com/storytold/wordcraft) | 16,648 | +150 | Rust | Apache-2.0 | 2026-10-30 | An open-source, clean-room reimplementation of Microsoft Word in pure Rust |
+| [storytold/lightcraft](https://github.com/storytold/lightcraft) | 15,064 | +74 | Rust | Apache-2.0 | 2026-10-30 | LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust |
+| [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 12,114 | +387 | Rust | Apache-2.0 | 2026-10-30 | SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. |
+| [storytold/vectorcraft](https://github.com/storytold/vectorcraft) | 11,015 | +61 | Rust | Apache-2.0 | 2026-10-30 | VectorCraft: An open-source, vector art tool written by scratch in pure Rust |
+| [seedds/nxnative](https://github.com/seedds/nxnative) | 9,854 | +680 | Python | MIT | 2026-10-30 | Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE… |
+| [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9,206 | +40 | Python | MIT | 2026-10-30 | Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, rev… |
+| [storytold/effectcraft](https://github.com/storytold/effectcraft) | 8,175 | +66 | Rust | Apache-2.0 | 2026-10-30 | EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust |
+| [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | 7,844 | +334 | Kotlin | MIT | 2026-10-30 | 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. |
+| [storytold/cadcraft](https://github.com/storytold/cadcraft) | 7,209 | +86 | Rust | Apache-2.0 | 2026-10-30 | CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust |
+| [storytold/gridcraft](https://github.com/storytold/gridcraft) | 6,831 | +82 | Rust | Apache-2.0 | 2026-10-30 | GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. |
+| [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 6,518 | +200 | Python | MIT | 2026-10-03 | Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its user… |
+| [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) | 6,476 | +151 | C | MIT | 2026-10-29 | Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulat… |
+| [ARahim3/DigUp](https://github.com/ARahim3/DigUp) | 6,018 | +33 | Swift | MIT | 2026-10-26 | Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, W… |
 
 ### 近期活跃项目
 
-查询规则：`pushed:>=2026-10-22 stars:>=1000 fork:false archived:false`
+查询规则：`pushed:>=2026-10-23 stars:>=1000 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 493,073 | +291 | Python | MIT | 2026-10-27 | A collective list of free APIs |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 458,143 | +77 | TypeScript | BSD-3-Clause | 2026-10-28 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
-| [morluto/rea](https://github.com/morluto/rea) | 403,825 | +5371 | TypeScript | MIT | 2026-10-29 | Reverse engineer anything with agents, from app behavior down to native binaries. |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 400,425 | +97 | Python | CC-BY-4.0 | 2026-10-27 | :books: Freely available programming books |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 393,313 | +82 | TypeScript | MIT | 2026-10-29 | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
-| [obra/superpowers](https://github.com/obra/superpowers) | 307,642 | +998 | Shell | MIT | 2026-10-23 | An agentic skills framework &amp; software development methodology that works. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 305,924 | +878 | Shell | MIT | 2026-10-27 | Skills for Real Engineers. Straight from my .agents directory. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 291,939 | +859 | JavaScript | MIT | 2026-10-26 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 288,340 | +96 | Python | MIT | 2026-10-26 | Curated list of project-based tutorials |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 265,123 | +1128 | TypeScript | MIT | 2026-10-28 | DeepSeek Harness: Everything is a Plugin. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 258,246 | +425 | Python | MIT | 2026-10-29 | The agent that grows with you |
-| [react/react](https://github.com/react/react) | 251,801 | -5 | JavaScript | MIT | 2026-10-28 | The library for web and native user interfaces. |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 222,825 | +353 | TypeScript | MIT | 2026-10-29 | The open source coding agent. |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 203,508 | +402 | Python | Unlicense | 2026-10-26 | A feature-rich command-line audio/video downloader |
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,289 | -29 | C++ | Apache-2.0 | 2026-10-29 | An Open Source Machine Learning Framework for Everyone |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 196,492 | +338 | TypeScript | AGPL-3.0 | 2026-10-29 | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194,970 | -1 | Rust | MIT | 2026-10-28 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
-| [microsoft/vscode](https://github.com/microsoft/vscode) | 194,399 | -3 | TypeScript | MIT | 2026-10-29 | Visual Studio Code |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 192,761 | +149 | Python | MIT | 2026-10-28 | Python tool for converting files and office documents to Markdown. |
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 190,910 | +179 | Go | MIT | 2026-10-26 | A curated list of awesome Go frameworks, libraries and software |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 493,335 | +262 | Python | MIT | 2026-10-29 | A collective list of free APIs |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 458,204 | +61 | TypeScript | BSD-3-Clause | 2026-10-30 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [morluto/rea](https://github.com/morluto/rea) | 408,863 | +5038 | TypeScript | MIT | 2026-10-30 | Reverse engineer anything with agents, from app behavior down to native binaries. |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 400,504 | +79 | Python | CC-BY-4.0 | 2026-10-27 | :books: Freely available programming books |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 393,395 | +82 | TypeScript | MIT | 2026-10-30 | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
+| [obra/superpowers](https://github.com/obra/superpowers) | 308,797 | +1155 | Shell | MIT | 2026-10-29 | An agentic skills framework &amp; software development methodology that works. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 306,780 | +856 | Shell | MIT | 2026-10-29 | Skills for Real Engineers. Straight from my .agents directory. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 292,848 | +909 | JavaScript | MIT | 2026-10-30 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 288,421 | +81 | Python | MIT | 2026-10-26 | Curated list of project-based tutorials |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 266,103 | +980 | TypeScript | MIT | 2026-10-30 | DeepSeek Harness: Everything is a Plugin. |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 258,587 | +341 | Python | MIT | 2026-10-30 | The agent that grows with you |
+| [react/react](https://github.com/react/react) | 251,751 | -50 | JavaScript | MIT | 2026-10-29 | The library for web and native user interfaces. |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 223,127 | +302 | TypeScript | MIT | 2026-10-30 | The open source coding agent. |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 203,768 | +260 | Python | Unlicense | 2026-10-29 | A feature-rich command-line audio/video downloader |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,212 | -77 | C++ | Apache-2.0 | 2026-10-30 | An Open Source Machine Learning Framework for Everyone |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 196,825 | +333 | TypeScript | AGPL-3.0 | 2026-10-30 | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194,976 | +6 | Rust | MIT | 2026-10-28 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | 194,364 | -35 | TypeScript | MIT | 2026-10-30 | Visual Studio Code |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 192,945 | +184 | Python | MIT | 2026-10-28 | Python tool for converting files and office documents to Markdown. |
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 191,083 | +173 | Go | MIT | 2026-10-26 | A curated list of awesome Go frameworks, libraries and software |
 
 ---
 

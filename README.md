@@ -8,65 +8,65 @@
 
 ## 最新雷达
 
-- UTC：`2026-11-02T06:20:05Z`
-- 北京时间：`2026-11-02T14:20:05+08:00`
+- UTC：`2026-11-03T06:56:01Z`
+- 北京时间：`2026-11-03T14:56:01+08:00`
 - 数据源：GitHub REST Search repositories API
 - 排除候选：42 个
 - 说明：Star 增量按相邻两次成功快照计算。
 
 ### 新晋热门项目
 
-查询规则：`created:>=2026-10-03 stars:>=100 fork:false archived:false`
+查询规则：`created:>=2026-10-04 stars:>=100 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 24,885 | +190 | Python | Apache-2.0 | 2026-10-26 | DeepInfer: High-performance, large-scale inference framework for DeepSeek models |
-| [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 23,856 | +407 | JavaScript | MIT | 2026-10-18 | An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. G… |
-| [google-research/harness2](https://github.com/google-research/harness2) | 21,946 | +218 | Python | Apache-2.0 | 2026-11-02 | - |
-| [openai/math](https://github.com/openai/math) | 17,257 | +48 | Lean | Apache-2.0 | 2026-10-30 | - |
-| [storytold/wordcraft](https://github.com/storytold/wordcraft) | 16,979 | +105 | Rust | Apache-2.0 | 2026-11-02 | An open-source, clean-room reimplementation of Microsoft Word in pure Rust |
-| [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 12,968 | +295 | Rust | Apache-2.0 | 2026-11-02 | SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. |
-| [seedds/nxnative](https://github.com/seedds/nxnative) | 11,079 | +377 | Python | MIT | 2026-11-02 | Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE… |
-| [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 9,555 | +5706 | TypeScript | MIT | 2026-10-31 | Towards a More Autonomous Agent System |
-| [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | 8,790 | +386 | Kotlin | MIT | 2026-11-02 | 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. |
-| [storytold/cadcraft](https://github.com/storytold/cadcraft) | 7,419 | +84 | Rust | Apache-2.0 | 2026-11-01 | CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust |
-| [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 7,019 | +171 | Python | MIT | 2026-10-03 | Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its user… |
-| [storytold/gridcraft](https://github.com/storytold/gridcraft) | 6,998 | +53 | Rust | Apache-2.0 | 2026-11-02 | GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. |
-| [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) | 6,806 | +95 | C | MIT | 2026-11-02 | Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulat… |
-| [HeyPuter/everything](https://github.com/HeyPuter/everything) | 6,378 | +231 | JavaScript | MIT | 2026-10-30 | We're rebuilding and open-sourcing the world’s software from scratch. |
-| [ARahim3/DigUp](https://github.com/ARahim3/DigUp) | 6,102 | +32 | Swift | MIT | 2026-10-26 | Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, W… |
-| [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | 5,944 | +70 | JavaScript | MIT | 2026-10-16 | 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 |
-| [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | 5,736 | +295 | Python | MIT | 2026-11-02 | 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 |
-| [horizon-rust/horizon](https://github.com/horizon-rust/horizon) | 5,735 | +307 | Rust | MIT | 2026-11-02 | Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. G… |
-| [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | 5,692 | +105 | Java | MIT | 2026-10-31 | A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo. |
-| [heydamir/unslop](https://github.com/heydamir/unslop) | 5,131 | +1361 | JavaScript | CC-BY-4.0 | 2026-11-01 | A Claude skill that turns vibecoded, AI-looking UI into a designed interface |
+| [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 25,070 | +185 | Python | Apache-2.0 | 2026-10-26 | DeepInfer: High-performance, large-scale inference framework for DeepSeek models |
+| [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 24,204 | +348 | JavaScript | MIT | 2026-10-18 | An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. G… |
+| [google-research/harness2](https://github.com/google-research/harness2) | 22,185 | +239 | Python | Apache-2.0 | 2026-11-02 | - |
+| [openai/math](https://github.com/openai/math) | 17,281 | +24 | Lean | Apache-2.0 | 2026-10-30 | - |
+| [storytold/wordcraft](https://github.com/storytold/wordcraft) | 17,106 | +127 | Rust | Apache-2.0 | 2026-11-03 | An open-source, clean-room reimplementation of Microsoft Word in pure Rust |
+| [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 14,494 | +4939 | TypeScript | MIT | 2026-10-31 | Towards a More Autonomous Agent System |
+| [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 13,238 | +270 | Rust | Apache-2.0 | 2026-11-03 | SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP. |
+| [seedds/nxnative](https://github.com/seedds/nxnative) | 11,590 | +511 | Python | MIT | 2026-11-03 | Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE… |
+| [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | 9,139 | +349 | Kotlin | MIT | 2026-11-03 | 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. |
+| [storytold/cadcraft](https://github.com/storytold/cadcraft) | 7,500 | +81 | Rust | Apache-2.0 | 2026-11-03 | CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust |
+| [storytold/gridcraft](https://github.com/storytold/gridcraft) | 7,057 | +59 | Rust | Apache-2.0 | 2026-11-03 | GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft. |
+| [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) | 6,910 | +104 | C | MIT | 2026-11-03 | Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulat… |
+| [unclebob/ub-mode](https://github.com/unclebob/ub-mode) | 6,630 | 基线 | - | MIT | 2026-11-02 | - |
+| [HeyPuter/everything](https://github.com/HeyPuter/everything) | 6,626 | +248 | JavaScript | MIT | 2026-11-03 | We're rebuilding and open-sourcing the world’s software from scratch. |
+| [heydamir/unslop](https://github.com/heydamir/unslop) | 6,586 | +1455 | JavaScript | CC-BY-4.0 | 2026-11-01 | A Claude skill that turns vibecoded, AI-looking UI into a designed interface |
+| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 6,282 | +1200 | Dart | AGPL-3.0 | 2026-11-03 | dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 |
+| [ARahim3/DigUp](https://github.com/ARahim3/DigUp) | 6,145 | +43 | Swift | MIT | 2026-10-26 | Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, W… |
+| [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | 6,051 | +107 | JavaScript | MIT | 2026-10-16 | 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。 |
+| [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | 5,969 | +233 | Python | MIT | 2026-11-03 | 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 |
+| [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | 5,778 | +86 | Java | MIT | 2026-10-31 | A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo. |
 
 ### 近期活跃项目
 
-查询规则：`pushed:>=2026-10-26 stars:>=1000 fork:false archived:false`
+查询规则：`pushed:>=2026-10-27 stars:>=1000 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 494,948 | +1076 | Python | MIT | 2026-11-01 | A collective list of free APIs |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 458,392 | +58 | TypeScript | BSD-3-Clause | 2026-11-02 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
-| [morluto/rea](https://github.com/morluto/rea) | 419,761 | +3597 | TypeScript | MIT | 2026-11-02 | Reverse engineer anything with agents, from app behavior down to native binaries. |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 400,698 | +66 | Python | CC-BY-4.0 | 2026-11-01 | :books: Freely available programming books |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 393,671 | +84 | TypeScript | MIT | 2026-11-02 | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
-| [obra/superpowers](https://github.com/obra/superpowers) | 310,774 | +576 | Shell | MIT | 2026-10-29 | An agentic skills framework &amp; software development methodology that works. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 309,427 | +811 | Shell | MIT | 2026-11-01 | Skills for Real Engineers. Straight from my .agents directory. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 294,952 | +737 | JavaScript | MIT | 2026-11-02 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 288,724 | +112 | Python | MIT | 2026-10-26 | Curated list of project-based tutorials |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 268,688 | +1035 | TypeScript | MIT | 2026-10-30 | DeepSeek Harness: Everything is a Plugin. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 259,582 | +327 | Python | MIT | 2026-11-02 | The agent that grows with you |
-| [react/react](https://github.com/react/react) | 252,079 | +20 | JavaScript | MIT | 2026-10-31 | The library for web and native user interfaces. |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 223,914 | +256 | TypeScript | MIT | 2026-11-02 | The open source coding agent. |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 204,572 | +281 | Python | Unlicense | 2026-10-29 | A feature-rich command-line audio/video downloader |
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,264 | +9 | C++ | Apache-2.0 | 2026-11-02 | An Open Source Machine Learning Framework for Everyone |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 197,743 | +271 | TypeScript | AGPL-3.0 | 2026-11-02 | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194,995 | +0 | Rust | MIT | 2026-11-02 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
-| [microsoft/vscode](https://github.com/microsoft/vscode) | 194,468 | +34 | TypeScript | MIT | 2026-11-02 | Visual Studio Code |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 193,454 | +174 | Python | MIT | 2026-10-28 | Python tool for converting files and office documents to Markdown. |
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 191,596 | +190 | Go | MIT | 2026-10-30 | A curated list of awesome Go frameworks, libraries and software |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 495,631 | +683 | Python | MIT | 2026-11-01 | A collective list of free APIs |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 458,465 | +73 | TypeScript | BSD-3-Clause | 2026-11-02 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [morluto/rea](https://github.com/morluto/rea) | 424,028 | +4267 | TypeScript | MIT | 2026-11-03 | Reverse engineer anything with agents, from app behavior down to native binaries. |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 400,777 | +79 | Python | CC-BY-4.0 | 2026-11-01 | :books: Freely available programming books |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 393,786 | +115 | TypeScript | MIT | 2026-11-03 | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
+| [obra/superpowers](https://github.com/obra/superpowers) | 311,380 | +606 | Shell | MIT | 2026-11-03 | An agentic skills framework &amp; software development methodology that works. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 310,522 | +1095 | Shell | MIT | 2026-11-01 | Skills for Real Engineers. Straight from my .agents directory. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 295,877 | +925 | JavaScript | MIT | 2026-11-02 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 288,842 | +118 | Python | MIT | 2026-11-02 | Curated list of project-based tutorials |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 270,094 | +1406 | TypeScript | MIT | 2026-10-30 | DeepSeek Harness: Everything is a Plugin. |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 259,970 | +388 | Python | MIT | 2026-11-03 | The agent that grows with you |
+| [react/react](https://github.com/react/react) | 251,886 | -193 | JavaScript | MIT | 2026-10-31 | The library for web and native user interfaces. |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 225,799 | 基线 | Python | MIT | 2026-11-02 | All Algorithms implemented in Python |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 224,179 | +265 | TypeScript | MIT | 2026-11-03 | The open source coding agent. |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 204,844 | +272 | Python | Unlicense | 2026-10-29 | A feature-rich command-line audio/video downloader |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,280 | +16 | C++ | Apache-2.0 | 2026-11-03 | An Open Source Machine Learning Framework for Everyone |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 198,099 | +356 | TypeScript | AGPL-3.0 | 2026-11-03 | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194,973 | -22 | Rust | MIT | 2026-11-02 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | 194,523 | +55 | TypeScript | MIT | 2026-11-03 | Visual Studio Code |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 193,636 | +182 | Python | MIT | 2026-10-28 | Python tool for converting files and office documents to Markdown. |
 
 ---
 

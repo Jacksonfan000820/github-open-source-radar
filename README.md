@@ -8,65 +8,65 @@
 
 ## 最新雷达
 
-- UTC：`2026-11-24T10:01:51Z`
-- 北京时间：`2026-11-24T18:01:51+08:00`
+- UTC：`2026-11-25T08:46:11Z`
+- 北京时间：`2026-11-25T16:46:11+08:00`
 - 数据源：GitHub REST Search repositories API
 - 排除候选：34 个
 - 说明：Star 增量按相邻两次成功快照计算。
 
 ### 新晋热门项目
 
-查询规则：`created:>=2026-10-25 stars:>=100 fork:false archived:false`
+查询规则：`created:>=2026-10-26 stars:>=100 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 42,456 | +902 | Rust | Apache-2.0 | 2026-11-24 | Craft Anything: understand how any software works, and craft your own. |
-| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 31,076 | +661 | Dart | AGPL-3.0 | 2026-11-24 | dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。 |
-| [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 24,428 | +129 | TypeScript | MIT | 2026-11-03 | Towards a More Autonomous Agent System |
-| [heydamir/unslop](https://github.com/heydamir/unslop) | 21,023 | +569 | JavaScript | CC-BY-4.0 | 2026-11-15 | A Claude skill that turns vibecoded, AI-looking UI into a designed interface |
-| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 17,553 | +643 | Rust | GPL-3.0 | 2026-11-24 | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Wind… |
-| [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) | 12,846 | +479 | Python | Apache-2.0 | 2026-11-24 | Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open V… |
-| [libracoder/kiri](https://github.com/libracoder/kiri) | 12,776 | +331 | Rust | Apache-2.0 | 2026-11-24 | A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative |
-| [janestreet/agent\_skills](https://github.com/janestreet/agent_skills) | 11,484 | +582 | - | MIT | 2026-11-17 | Agent skills |
-| [zortos293/Lichii](https://github.com/zortos293/Lichii) | 10,179 | +82 | C++ | GPL-3.0 | 2026-11-24 | VERY experimental Nintendo Switch 2 emulator |
-| [wangzan101/Mika](https://github.com/wangzan101/Mika) | 9,827 | +127 | Kotlin | Apache-2.0 | 2026-11-23 | An on-device AI agent for Android that operates apps and the web to get things done for you. |
-| [RoutineMiku/apkstart](https://github.com/RoutineMiku/apkstart) | 9,592 | +266 | JavaScript | MIT | 2026-11-22 | Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时 |
-| [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | 8,957 | +150 | JavaScript | MIT | 2026-11-13 | 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. |
-| [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | 8,956 | +744 | Rust | MIT | 2026-11-24 | Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CL… |
-| [huami1314/GestaltX](https://github.com/huami1314/GestaltX) | 8,882 | +55 | Swift | GPL-3.0 | 2026-11-17 | An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. |
-| [unclebob/ub-mode](https://github.com/unclebob/ub-mode) | 8,506 | +126 | - | MIT | 2026-11-02 | - |
-| [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 8,200 | +330 | Go | MIT | 2026-11-24 | Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。 |
-| [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) | 8,171 | +98 | C | MIT | 2026-11-24 | Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan ren… |
-| [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) | 7,452 | +594 | JavaScript | MIT | 2026-11-24 | The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted. |
-| [Marvisak/VIctory](https://github.com/Marvisak/VIctory) | 7,158 | 基线 | Rust | GPL-3.0 | 2026-11-24 | An attempt at running GTA VI on PC |
-| [vercel-labs/ui](https://github.com/vercel-labs/ui) | 6,996 | +396 | TypeScript | Apache-2.0 | 2026-11-24 | A library of behaviors for agents to build the next generation of user interfaces. |
+| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 43,092 | +636 | Rust | Apache-2.0 | 2026-11-24 | Craft Anything: understand how any software works, and craft your own. |
+| [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 24,539 | +111 | TypeScript | MIT | 2026-11-03 | Towards a More Autonomous Agent System |
+| [heydamir/unslop](https://github.com/heydamir/unslop) | 21,416 | +393 | JavaScript | CC-BY-4.0 | 2026-11-15 | A Claude skill that turns vibecoded, AI-looking UI into a designed interface |
+| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 17,955 | +402 | Rust | GPL-3.0 | 2026-11-25 | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Wind… |
+| [libracoder/kiri](https://github.com/libracoder/kiri) | 13,154 | +378 | Rust | Apache-2.0 | 2026-11-24 | A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative |
+| [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) | 13,145 | +299 | Python | Apache-2.0 | 2026-11-25 | Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open V… |
+| [Marvisak/VIctory](https://github.com/Marvisak/VIctory) | 11,811 | +4653 | Rust | GPL-3.0 | 2026-11-25 | An attempt at running GTA VI on PC |
+| [janestreet/agent\_skills](https://github.com/janestreet/agent_skills) | 11,688 | +204 | - | MIT | 2026-11-17 | Agent skills |
+| [zortos293/Lichii](https://github.com/zortos293/Lichii) | 10,248 | +69 | C++ | GPL-3.0 | 2026-11-25 | VERY experimental Nintendo Switch 2 emulator |
+| [wangzan101/Mika](https://github.com/wangzan101/Mika) | 9,921 | +94 | Kotlin | Apache-2.0 | 2026-11-25 | An on-device AI agent for Android that operates apps and the web to get things done for you. |
+| [RoutineMiku/apkstart](https://github.com/RoutineMiku/apkstart) | 9,768 | +176 | JavaScript | MIT | 2026-11-22 | Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时 |
+| [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | 9,376 | +420 | Rust | MIT | 2026-11-25 | Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CL… |
+| [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | 9,151 | +194 | JavaScript | MIT | 2026-11-13 | 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. |
+| [huami1314/GestaltX](https://github.com/huami1314/GestaltX) | 8,925 | +43 | Swift | GPL-3.0 | 2026-11-17 | An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups. |
+| [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 8,451 | +251 | Go | MIT | 2026-11-25 | Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。 |
+| [valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp) | 8,253 | +82 | C | MIT | 2026-11-25 | Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan ren… |
+| [xcl-dev/xcl](https://github.com/xcl-dev/xcl) | 8,038 | +2260 | Rust | GPL-2.0 | 2026-11-25 | Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system librarie… |
+| [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) | 7,874 | +422 | JavaScript | MIT | 2026-11-25 | The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted. |
+| [vercel-labs/ui](https://github.com/vercel-labs/ui) | 7,344 | +348 | TypeScript | Apache-2.0 | 2026-11-24 | A library of behaviors for agents to build and drive the next generation of user interfaces. |
+| [haydenschmitty/floorplan](https://github.com/haydenschmitty/floorplan) | 6,749 | +227 | JavaScript | MIT | 2026-11-16 | See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex. |
 
 ### 近期活跃项目
 
-查询规则：`pushed:>=2026-11-17 stars:>=1000 fork:false archived:false`
+查询规则：`pushed:>=2026-11-18 stars:>=1000 fork:false archived:false`
 
 | 项目 | Stars | 增量 | 语言 | 许可证 | 最近推送 | 简介 |
 |---|---:|---:|---|---|---|---|
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 501,124 | +207 | Python | MIT | 2026-11-22 | A collective list of free APIs |
-| [morluto/rea](https://github.com/morluto/rea) | 476,246 | +1667 | TypeScript | MIT | 2026-11-24 | Reverse engineer anything with agents, from app behavior down to native binaries. |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459,556 | +44 | TypeScript | BSD-3-Clause | 2026-11-24 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 402,174 | +76 | Python | CC-BY-4.0 | 2026-11-24 | :books: Freely available programming books |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 395,138 | +68 | TypeScript | MIT | 2026-11-24 | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 331,745 | +958 | Shell | MIT | 2026-11-19 | Skills for Real Engineers. Straight from my .agents directory. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 309,812 | +638 | JavaScript | MIT | 2026-11-23 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 290,376 | +70 | Python | MIT | 2026-11-23 | Curated list of project-based tutorials |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 286,343 | +583 | TypeScript | MIT | 2026-11-22 | DeepSeek Harness: Everything is a Plugin. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 265,757 | +242 | Python | MIT | 2026-11-24 | The agent that grows with you |
-| [react/react](https://github.com/react/react) | 252,826 | -114 | JavaScript | MIT | 2026-11-23 | The library for web and native user interfaces. |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 228,880 | +198 | TypeScript | MIT | 2026-11-24 | The open source coding agent. |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 210,322 | +247 | Python | Unlicense | 2026-11-23 | A feature-rich command-line audio/video downloader |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 208,321 | +1022 | TypeScript | AGPL-3.0 | 2026-11-24 | Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. |
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,713 | -72 | C++ | Apache-2.0 | 2026-11-24 | An Open Source Machine Learning Framework for Everyone |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 197,755 | +672 | JavaScript | MIT | 2026-11-22 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 195,677 | +193 | Go | MIT | 2026-11-23 | A curated list of awesome Go frameworks, libraries and software |
-| [microsoft/vscode](https://github.com/microsoft/vscode) | 195,676 | -116 | TypeScript | MIT | 2026-11-24 | Visual Studio Code |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194,722 | -10 | Rust | MIT | 2026-11-23 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
-| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 190,798 | -64 | Shell | MIT | 2026-11-24 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 30… |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | 501,297 | +173 | Python | MIT | 2026-11-22 | A collective list of free APIs |
+| [morluto/rea](https://github.com/morluto/rea) | 477,636 | +1390 | TypeScript | MIT | 2026-11-25 | Reverse engineer anything with agents, from app behavior down to native binaries. |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459,601 | +45 | TypeScript | BSD-3-Clause | 2026-11-25 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 402,241 | +67 | Python | CC-BY-4.0 | 2026-11-24 | :books: Freely available programming books |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 395,170 | +32 | TypeScript | MIT | 2026-11-25 | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 332,465 | +720 | Shell | MIT | 2026-11-24 | Skills for Real Engineers. Straight from my .agents directory. |
+| [obra/superpowers](https://github.com/obra/superpowers) | 326,103 | 基线 | Shell | MIT | 2026-11-24 | An agentic skills framework &amp; software development methodology that works. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 310,393 | +581 | JavaScript | MIT | 2026-11-23 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development… |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 290,440 | +64 | Python | MIT | 2026-11-23 | Curated list of project-based tutorials |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 286,767 | +424 | TypeScript | MIT | 2026-11-22 | DeepSeek Harness: Everything is a Plugin. |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 265,976 | +219 | Python | MIT | 2026-11-25 | The agent that grows with you |
+| [react/react](https://github.com/react/react) | 252,894 | +68 | JavaScript | MIT | 2026-11-25 | The library for web and native user interfaces. |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 229,051 | +171 | TypeScript | MIT | 2026-11-25 | The open source coding agent. |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 210,552 | +230 | Python | Unlicense | 2026-11-24 | A feature-rich command-line audio/video downloader |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 209,300 | +979 | TypeScript | AGPL-3.0 | 2026-11-25 | Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,776 | +63 | C++ | Apache-2.0 | 2026-11-25 | An Open Source Machine Learning Framework for Everyone |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 198,329 | +574 | JavaScript | MIT | 2026-11-22 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) | 195,864 | +187 | Go | MIT | 2026-11-25 | A curated list of awesome Go frameworks, libraries and software |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | 195,739 | +63 | TypeScript | MIT | 2026-11-25 | Visual Studio Code |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 194,722 | +0 | Rust | MIT | 2026-11-24 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human int… |
 
 ---
 
